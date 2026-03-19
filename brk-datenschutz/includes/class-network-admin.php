@@ -332,8 +332,7 @@ class BRK_DS_Network_Admin {
      * ---------------------------------------------------------- */
 
     public static function render_settings_page(): void {
-        $sites    = get_sites( [ 'number' => 0 ] );
-        $disabled = (array) get_site_option( 'brk_ds_site_pages_disabled', [] );
+        $enabled = (bool) get_site_option( 'brk_ds_site_pages_enabled', '1' );
 
         ?>
         <div class="wrap brk-ds-wrap">
@@ -343,44 +342,21 @@ class BRK_DS_Network_Admin {
                 <div class="notice notice-success"><p>Einstellungen gespeichert.</p></div>
             <?php endif; ?>
 
-            <h2>Site-Backend-Seiten</h2>
-            <p>Steuert, ob die Seite &laquo;Datenschutz-Scan&raquo; im Werkzeuge-Menue der einzelnen Sites
-               fuer die Site-Admins sichtbar ist.</p>
-
             <form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
                 <?php wp_nonce_field( 'brk_ds_save_settings' ); ?>
                 <input type="hidden" name="action" value="brk_ds_save_settings">
 
-                <table class="widefat striped brk-ds-table" style="max-width:700px;">
-                    <thead>
-                        <tr>
-                            <th style="width:50px;">Aktiv</th>
-                            <th>Site</th>
-                            <th>URL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ( $sites as $site ) :
-                            $blog_id  = (int) $site->blog_id;
-                            $is_on    = ! in_array( $blog_id, $disabled, true );
-
-                            switch_to_blog( $blog_id );
-                            $site_name = get_bloginfo( 'name' ) ?: '(kein Name)';
-                            $site_url  = get_site_url();
-                            restore_current_blog();
-                        ?>
-                        <tr>
-                            <td style="text-align:center;">
-                                <input type="checkbox"
-                                       name="sites_enabled[]"
-                                       value="<?php echo $blog_id; ?>"
-                                       <?php checked( $is_on ); ?>>
-                            </td>
-                            <td><?php echo esc_html( $site_name ); ?></td>
-                            <td><small><?php echo esc_html( $site_url ); ?></small></td>
-                        </tr>
-                        <?php endforeach; ?>
-                    </tbody>
+                <table class="form-table">
+                    <tr>
+                        <th scope="row">Site-Backend-Seiten</th>
+                        <td>
+                            <label>
+                                <input type="checkbox" name="site_pages_enabled" value="1" <?php checked( $enabled ); ?>>
+                                Seite &laquo;Datenschutz-Scan&raquo; im Werkzeuge-Menue der Sites anzeigen
+                            </label>
+                            <p class="description">Wenn deaktiviert, sehen Site-Admins die Datenschutz-Scan-Seite nicht mehr.</p>
+                        </td>
+                    </tr>
                 </table>
 
                 <p class="submit">
@@ -400,19 +376,8 @@ class BRK_DS_Network_Admin {
         }
         check_admin_referer( 'brk_ds_save_settings' );
 
-        $enabled_ids = array_map( 'intval', $_POST['sites_enabled'] ?? [] );
-
-        // Alle Sites holen, die NICHT angehakt sind -> disabled-Liste
-        $all_sites = get_sites( [ 'number' => 0 ] );
-        $disabled  = [];
-        foreach ( $all_sites as $site ) {
-            $blog_id = (int) $site->blog_id;
-            if ( ! in_array( $blog_id, $enabled_ids, true ) ) {
-                $disabled[] = $blog_id;
-            }
-        }
-
-        update_site_option( 'brk_ds_site_pages_disabled', $disabled );
+        $enabled = ! empty( $_POST['site_pages_enabled'] ) ? '1' : '0';
+        update_site_option( 'brk_ds_site_pages_enabled', $enabled );
 
         wp_safe_redirect( network_admin_url( 'admin.php?page=brk-datenschutz-settings&saved=1' ) );
         exit;

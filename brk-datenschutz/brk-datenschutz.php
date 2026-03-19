@@ -3,7 +3,7 @@
  * Plugin Name:  BRK Datenschutz Scanner
  * Plugin URI:   https://brk.de
  * Description:  Erkennt datenschutzrelevante Dienste pro Site und ermoeglicht die Zuordnung von Datenschutzklauseln. Fuer Single-Site und Multisite.
- * Version:      1.0.1
+ * Version:      1.0.2
  * Author:       AG-IT
  * Network:      true
  * Text Domain:  brk-datenschutz
@@ -65,9 +65,9 @@ final class BRK_Datenschutz {
             if ( ! get_site_option( 'brk_ds_clauses' ) ) {
                 update_site_option( 'brk_ds_clauses', [] );
             }
-            // Standard: Site-Seiten fuer alle Sites aktiviert
-            if ( false === get_site_option( 'brk_ds_site_pages_disabled' ) ) {
-                update_site_option( 'brk_ds_site_pages_disabled', [] );
+            // Standard: Site-Seiten aktiviert
+            if ( false === get_site_option( 'brk_ds_site_pages_enabled' ) ) {
+                update_site_option( 'brk_ds_site_pages_enabled', '1' );
             }
         } else {
             if ( ! get_option( 'brk_ds_clauses' ) ) {
@@ -77,18 +77,13 @@ final class BRK_Datenschutz {
     }
 
     /**
-     * Pruefen ob die Site-Admin-Seite fuer eine bestimmte Site aktiviert ist.
-     * Gibt true zurueck wenn die Seite angezeigt werden soll.
+     * Pruefen ob die Site-Admin-Seiten global aktiviert sind.
      */
-    public static function is_site_page_enabled( int $blog_id = 0 ): bool {
+    public static function is_site_page_enabled(): bool {
         if ( ! is_multisite() ) {
             return true;
         }
-        if ( ! $blog_id ) {
-            $blog_id = get_current_blog_id();
-        }
-        $disabled = (array) get_site_option( 'brk_ds_site_pages_disabled', [] );
-        return ! in_array( $blog_id, $disabled, true );
+        return (bool) get_site_option( 'brk_ds_site_pages_enabled', '1' );
     }
 
     /**
