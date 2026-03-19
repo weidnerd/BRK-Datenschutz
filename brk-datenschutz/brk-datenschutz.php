@@ -3,7 +3,7 @@
  * Plugin Name:  BRK Datenschutz Scanner
  * Plugin URI:   https://brk.de
  * Description:  Erkennt datenschutzrelevante Dienste pro Site und ermoeglicht die Zuordnung von Datenschutzklauseln. Fuer Single-Site und Multisite.
- * Version:      1.0.0
+ * Version:      1.0.1
  * Author:       AG-IT
  * Network:      true
  * Text Domain:  brk-datenschutz
@@ -65,11 +65,30 @@ final class BRK_Datenschutz {
             if ( ! get_site_option( 'brk_ds_clauses' ) ) {
                 update_site_option( 'brk_ds_clauses', [] );
             }
+            // Standard: Site-Seiten fuer alle Sites aktiviert
+            if ( false === get_site_option( 'brk_ds_site_pages_disabled' ) ) {
+                update_site_option( 'brk_ds_site_pages_disabled', [] );
+            }
         } else {
             if ( ! get_option( 'brk_ds_clauses' ) ) {
                 update_option( 'brk_ds_clauses', [], false );
             }
         }
+    }
+
+    /**
+     * Pruefen ob die Site-Admin-Seite fuer eine bestimmte Site aktiviert ist.
+     * Gibt true zurueck wenn die Seite angezeigt werden soll.
+     */
+    public static function is_site_page_enabled( int $blog_id = 0 ): bool {
+        if ( ! is_multisite() ) {
+            return true;
+        }
+        if ( ! $blog_id ) {
+            $blog_id = get_current_blog_id();
+        }
+        $disabled = (array) get_site_option( 'brk_ds_site_pages_disabled', [] );
+        return ! in_array( $blog_id, $disabled, true );
     }
 
     /**

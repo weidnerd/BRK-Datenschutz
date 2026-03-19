@@ -16,6 +16,7 @@ class BRK_DS_Network_Admin {
         add_action( 'network_admin_menu', [ __CLASS__, 'add_menu' ] );
         add_action( 'admin_post_brk_ds_save_clauses', [ __CLASS__, 'handle_save_clauses' ] );
         add_action( 'admin_post_brk_ds_network_rescan', [ __CLASS__, 'handle_network_rescan' ] );
+        add_action( 'admin_post_brk_ds_save_settings', [ __CLASS__, 'handle_save_settings' ] );
     }
 
     /**
@@ -48,6 +49,15 @@ class BRK_DS_Network_Admin {
             'manage_network',
             'brk-datenschutz-clauses',
             [ __CLASS__, 'render_clauses_page' ]
+        );
+
+        add_submenu_page(
+            'brk-datenschutz',
+            'Einstellungen',
+            'Einstellungen',
+            'manage_network',
+            'brk-datenschutz-settings',
+            [ __CLASS__, 'render_settings_page' ]
         );
     }
 
@@ -314,6 +324,97 @@ class BRK_DS_Network_Admin {
         }
 
         wp_safe_redirect( network_admin_url( 'admin.php?page=brk-datenschutz&rescanned=1' ) );
+        exit;
+    }
+
+    /* ----------------------------------------------------------
+     * Einstellungen: Site-Seiten ein-/ausschalten
+     * ---------------------------------------------------------- */
+
+    public static function render_settings_page(): void {
+        $sites    = get_sites( [ 'number' => 0 ] );
+        $disabled = (array) get_site_option( 'brk_ds_site_pages_disabled', [] );
+
+        ?>
+        <div class="wrap brk-ds-wrap">
+            <h1>Datenschutz-Scanner Einstellungen</h1>
+
+            <?php if ( isset( $_GET['saved'] ) && $_GET['saved'] === '1' ) : ?>
+                <div class="notice notice-success"><p>Einstellungen gespeichert.</p></div>
+            <?php endif; ?>
+
+            <h2>Site-Backend-Seiten</h2>
+            <p>Steuert, ob die Seite &laquo;Datenschutz-Scan&raquo; im Werkzeuge-Menue der einzelnen Sites
+               fuer die Site-Admins sichtbar ist.</p>
+
+            <form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+                <?php wp_nonce_field( 'brk_ds_save_settings' ); ?>
+                <input type="hidden" name="action" value="brk_ds_save_settings">
+
+                <table class="widefat striped brk-ds-table" style="max-width:700px;">
+                    <thead>
+                        <tr>
+                            <th style="width:50px;">Aktiv</th>
+                            <th>Site</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ( $sites as $site ) :
+                            $blog_id  = (int) $site->blog_id;
+                            $is_on    = ! in_array( $blog_id, $disabled, true );
+
+                            switch_to_blog( $blog_id );
+                            $site_name = get_bloginfo( 'name' ) ?: '(kein Name)';
+                            $site_url  = get_site_url();
+                            restore_current_blog();
+                        ?>
+                        <tr>
+                            <td style="text-align:center;">
+                                <input type="checkbox"
+                                       name="sites_enabled[]"
+                                       value="<?php echo $blog_id; ?>"
+                                       <?php checked( $is_on ); ?>>
+                            </td>
+                            <td><?php echo esc_html( $site_name ); ?></td>
+                            <td><small><?php echo esc_html( $site_url ); ?></small></td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+
+                <p class="submit">
+                    <button type="submit" class="button button-primary">Einstellungen speichern</button>
+                </p>
+            </form>
+        </div>
+        <?php
+    }
+
+    /**
+     * Einstellungen speichern (POST-Handler)
+     */
+    public static function handle_save_settings(): void {
+        if ( ! current_user_can( 'manage_network' ) ) {
+            wp_die( 'Keine Berechtigung.' );
+        }
+        check_admin_referer( 'brk_ds_save_settings' );
+
+        $enabled_ids = array_map( 'intval', $_POST['sites_enabled'] ?? [] );
+
+        // Alle Sites holen, die NICHT angehakt sind -> disabled-Liste
+        $all_sites = get_sites( [ 'number' => 0 ] );
+        $disabled  = [];
+        foreach ( $all_sites as $site ) {
+            $blog_id = (int) $site->blog_id;
+            if ( ! in_array( $blog_id, $enabled_ids, true ) ) {
+                $disabled[] = $blog_id;
+            }
+        }
+
+        update_site_option( 'brk_ds_site_pages_disabled', $disabled );
+
+        wp_safe_redirect( network_admin_url( 'admin.php?page=brk-datenschutz-settings&saved=1' ) );
         exit;
     }
 }

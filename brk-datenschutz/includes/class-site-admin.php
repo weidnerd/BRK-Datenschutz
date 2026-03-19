@@ -36,9 +36,12 @@ class BRK_DS_Site_Admin {
     }
 
     /**
-     * Menue-Eintrag im Site-Admin
+     * Menue-Eintrag im Site-Admin (nur wenn vom Super-Admin aktiviert)
      */
     public static function add_menu(): void {
+        if ( ! BRK_Datenschutz::is_site_page_enabled() ) {
+            return;
+        }
         add_management_page(
             'Datenschutz-Dienste',
             'Datenschutz-Scan',
