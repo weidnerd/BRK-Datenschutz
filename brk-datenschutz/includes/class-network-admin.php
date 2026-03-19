@@ -159,8 +159,11 @@ class BRK_DS_Network_Admin {
                                 $site_count = count( $unique_sites );
 
                                 if ( $site_count > 1 ) {
-                                    echo '<a href="#" class="brk-ds-toggle" onclick="var el=this.nextElementSibling;el.style.display=el.style.display===\x27none\x27?\x27block\x27:\x27none\x27;this.textContent=el.style.display===\x27none\x27?\x27\u25B6 \x27+' . $site_count . '+\x27 Sites anzeigen\x27:\x27\u25BC Sites ausblenden\x27;return false;">&#9654; ' . $site_count . ' Sites anzeigen</a>';
-                                    echo '<ul class="brk-ds-source-list" style="display:none;">';
+                                    ?>
+                                    <a href="#" class="brk-ds-toggle" data-count="<?php echo $site_count; ?>"
+                                       onclick="var el=this.nextElementSibling;if(el.style.display==='none'){el.style.display='block';this.textContent='\u25BC Sites ausblenden';}else{el.style.display='none';this.textContent='\u25B6 '+this.dataset.count+' Sites anzeigen';}return false;">&#9654; <?php echo $site_count; ?> Sites anzeigen</a>
+                                    <ul class="brk-ds-source-list" style="display:none;">
+                                    <?php
                                 } else {
                                     echo '<ul class="brk-ds-source-list">';
                                 }
