@@ -1,0 +1,123 @@
+/* ==========================================================================
+   BRK Datenschutz – Admin-Styles
+   ========================================================================== */
+
+.brk-ds-wrap h1 {
+    margin-bottom: 16px;
+}
+
+/* Kategorie-Bloecke */
+.brk-ds-category {
+    margin-bottom: 28px;
+}
+
+.brk-ds-category h2,
+.brk-ds-category h3 {
+    margin-top: 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+/* Badge (Anzahl) */
+.brk-ds-badge {
+    display: inline-block;
+    min-width: 22px;
+    padding: 1px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #2271b1;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+/* Tabellen */
+.brk-ds-table th {
+    font-weight: 600;
+}
+
+.brk-ds-table .brk-ds-service-name {
+    min-width: 200px;
+}
+
+.brk-ds-table .brk-ds-count {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Quell-Listen */
+.brk-ds-source-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.brk-ds-source-list li {
+    padding: 1px 0;
+    font-size: 12px;
+    color: #50575e;
+    line-height: 1.5;
+}
+
+.brk-ds-source-list li::before {
+    content: "- ";
+    color: #999;
+}
+
+/* Klausel-Status */
+.brk-ds-has-clause {
+    color: #00a32a;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.brk-ds-no-clause {
+    color: #d63638;
+    font-size: 13px;
+}
+
+.brk-ds-clause-text {
+    margin: 4px 0 0;
+    font-size: 12px;
+    color: #50575e;
+    font-style: italic;
+}
+
+/* Klauseln-Tabelle */
+.brk-ds-clauses-table td {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brk-ds-clauses-table input.regular-text {
+    width: 100%;
+}
+
+.brk-ds-clauses-table textarea.large-text {
+    width: 100%;
+}
+
+/* Service-Chips (Uebersicht pro Site) */
+.brk-ds-service-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 6px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.brk-ds-chip {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 12px;
+    background: #f0f0f1;
+    border: 1px solid #c3c4c7;
+    border-radius: 12px;
+    color: #2c3338;
+}
