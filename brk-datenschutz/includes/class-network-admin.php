@@ -147,38 +147,50 @@ class BRK_DS_Network_Admin {
                             <td><?php echo esc_html( $data['category'] ); ?></td>
                             <td class="brk-ds-count"><?php echo (int) $data['count']; ?></td>
                             <td>
-                                <ul class="brk-ds-source-list">
-                                    <?php
-                                    $seen = [];
-                                    foreach ( $data['sites'] as $site_entry ) :
-                                        if ( isset( $seen[ $site_entry['blog_id'] ] ) ) continue;
-                                        $seen[ $site_entry['blog_id'] ] = true;
-                                        $admin_url = get_admin_url( $site_entry['blog_id'], 'tools.php?page=brk-datenschutz' );
-                                    ?>
-                                        <li>
-                                            <a href="<?php echo esc_url( $admin_url ); ?>"><strong><?php echo esc_html( $site_entry['name'] ); ?></strong></a>
-                                            <?php
-                                            // Post-/Seiten-Links ausgeben
-                                            $post_links = [];
-                                            foreach ( $site_entry['sources'] as $src ) {
-                                                $s_label   = is_array( $src ) ? $src['label']   : $src;
-                                                $s_post_id = is_array( $src ) ? ( $src['post_id'] ?? 0 ) : 0;
-                                                if ( $s_post_id && ! isset( $post_links[ $s_post_id ] ) ) {
-                                                    $edit_url = get_admin_url( $site_entry['blog_id'], 'post.php?post=' . $s_post_id . '&action=edit' );
-                                                    $post_links[ $s_post_id ] = '<a href="' . esc_url( $edit_url ) . '">' . esc_html( $s_label ) . '</a>';
-                                                }
+                                <?php
+                                // Unique Sites ermitteln
+                                $seen       = [];
+                                $unique_sites = [];
+                                foreach ( $data['sites'] as $site_entry ) {
+                                    if ( isset( $seen[ $site_entry['blog_id'] ] ) ) continue;
+                                    $seen[ $site_entry['blog_id'] ] = true;
+                                    $unique_sites[] = $site_entry;
+                                }
+                                $site_count = count( $unique_sites );
+
+                                if ( $site_count > 1 ) {
+                                    echo '<a href="#" class="brk-ds-toggle" onclick="var el=this.nextElementSibling;el.style.display=el.style.display===\x27none\x27?\x27block\x27:\x27none\x27;this.textContent=el.style.display===\x27none\x27?\x27\u25B6 \x27+' . $site_count . '+\x27 Sites anzeigen\x27:\x27\u25BC Sites ausblenden\x27;return false;">&#9654; ' . $site_count . ' Sites anzeigen</a>';
+                                    echo '<ul class="brk-ds-source-list" style="display:none;">';
+                                } else {
+                                    echo '<ul class="brk-ds-source-list">';
+                                }
+
+                                foreach ( $unique_sites as $site_entry ) :
+                                    $admin_url = get_admin_url( $site_entry['blog_id'], 'tools.php?page=brk-datenschutz' );
+                                ?>
+                                    <li>
+                                        <a href="<?php echo esc_url( $admin_url ); ?>"><strong><?php echo esc_html( $site_entry['name'] ); ?></strong></a>
+                                        <?php
+                                        // Post-/Seiten-Links ausgeben
+                                        $post_links = [];
+                                        foreach ( $site_entry['sources'] as $src ) {
+                                            $s_label   = is_array( $src ) ? $src['label']   : $src;
+                                            $s_post_id = is_array( $src ) ? ( $src['post_id'] ?? 0 ) : 0;
+                                            if ( $s_post_id && ! isset( $post_links[ $s_post_id ] ) ) {
+                                                $edit_url = get_admin_url( $site_entry['blog_id'], 'post.php?post=' . $s_post_id . '&action=edit' );
+                                                $post_links[ $s_post_id ] = '<a href="' . esc_url( $edit_url ) . '">' . esc_html( $s_label ) . '</a>';
                                             }
-                                            if ( $post_links ) {
-                                                echo '<a href="#" class="brk-ds-toggle" onclick="var el=this.nextElementSibling;el.style.display=el.style.display===\x27none\x27?\x27block\x27:\x27none\x27;this.textContent=el.style.display===\x27none\x27?\x27\u25B6 \x27+' . count( $post_links ) . '+\x27 Quellen anzeigen\x27:\x27\u25BC Quellen ausblenden\x27;return false;">&#9654; ' . count( $post_links ) . ' Quellen anzeigen</a>';
-                                                echo '<ul class="brk-ds-source-list brk-ds-collapsible" style="margin-left:12px;display:none;">';
-                                                foreach ( $post_links as $link ) {
-                                                    echo '<li>' . $link . '</li>';
-                                                }
-                                                echo '</ul>';
+                                        }
+                                        if ( $post_links ) {
+                                            echo '<ul class="brk-ds-source-list" style="margin-left:12px;">';
+                                            foreach ( $post_links as $link ) {
+                                                echo '<li>' . $link . '</li>';
                                             }
-                                            ?>
-                                        </li>
-                                    <?php endforeach; ?>
+                                            echo '</ul>';
+                                        }
+                                        ?>
+                                    </li>
+                                <?php endforeach; ?>
                                 </ul>
                             </td>
                             <td>
