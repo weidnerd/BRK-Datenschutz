@@ -174,20 +174,24 @@ class BRK_DS_Network_Admin {
                                     <li>
                                         <a href="<?php echo esc_url( $admin_url ); ?>"><strong><?php echo esc_html( $site_entry['name'] ); ?></strong></a>
                                         <?php
-                                        // Post-/Seiten-Links ausgeben
-                                        $post_links = [];
+                                        // Alle Quellen ausgeben
+                                        $source_items = [];
                                         foreach ( $site_entry['sources'] as $src ) {
                                             $s_label   = is_array( $src ) ? $src['label']   : $src;
                                             $s_post_id = is_array( $src ) ? ( $src['post_id'] ?? 0 ) : 0;
-                                            if ( $s_post_id && ! isset( $post_links[ $s_post_id ] ) ) {
+                                            $fingerprint = $s_label;
+                                            if ( isset( $source_items[ $fingerprint ] ) ) continue;
+                                            if ( $s_post_id ) {
                                                 $edit_url = get_admin_url( $site_entry['blog_id'], 'post.php?post=' . $s_post_id . '&action=edit' );
-                                                $post_links[ $s_post_id ] = '<a href="' . esc_url( $edit_url ) . '">' . esc_html( $s_label ) . '</a>';
+                                                $source_items[ $fingerprint ] = '<a href="' . esc_url( $edit_url ) . '">' . esc_html( $s_label ) . '</a>';
+                                            } else {
+                                                $source_items[ $fingerprint ] = esc_html( $s_label );
                                             }
                                         }
-                                        if ( $post_links ) {
+                                        if ( $source_items ) {
                                             echo '<ul class="brk-ds-source-list" style="margin-left:12px;">';
-                                            foreach ( $post_links as $link ) {
-                                                echo '<li>' . $link . '</li>';
+                                            foreach ( $source_items as $item ) {
+                                                echo '<li>' . $item . '</li>';
                                             }
                                             echo '</ul>';
                                         }

@@ -3,7 +3,7 @@
  * Plugin Name:  BRK Datenschutz Scanner
  * Plugin URI:   https://brk.de
  * Description:  Erkennt datenschutzrelevante Dienste pro Site und ermoeglicht die Zuordnung von Datenschutzklauseln. Fuer Single-Site und Multisite.
- * Version:      1.0.5
+ * Version:      1.0.6
  * Author:       Daniel Weidner - AG-IT der WW-Bayern + AI
  * Network:      true
  * Text Domain:  brk-datenschutz
