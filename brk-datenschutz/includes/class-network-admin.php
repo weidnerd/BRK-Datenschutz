@@ -95,7 +95,11 @@ class BRK_DS_Network_Admin {
                     ];
                 }
                 $aggregate[ $key ]['count']++;
-                $aggregate[ $key ]['sites'][] = $site_name;
+                $aggregate[ $key ]['sites'][] = [
+                    'name'    => $site_name,
+                    'blog_id' => $blog_id,
+                    'sources' => $svc['sources'] ?? [],
+                ];
             }
         }
 
@@ -144,8 +148,36 @@ class BRK_DS_Network_Admin {
                             <td class="brk-ds-count"><?php echo (int) $data['count']; ?></td>
                             <td>
                                 <ul class="brk-ds-source-list">
-                                    <?php foreach ( array_unique( $data['sites'] ) as $sn ) : ?>
-                                        <li><?php echo esc_html( $sn ); ?></li>
+                                    <?php
+                                    $seen = [];
+                                    foreach ( $data['sites'] as $site_entry ) :
+                                        if ( isset( $seen[ $site_entry['blog_id'] ] ) ) continue;
+                                        $seen[ $site_entry['blog_id'] ] = true;
+                                        $admin_url = get_admin_url( $site_entry['blog_id'], 'tools.php?page=brk-datenschutz' );
+                                    ?>
+                                        <li>
+                                            <a href="<?php echo esc_url( $admin_url ); ?>"><strong><?php echo esc_html( $site_entry['name'] ); ?></strong></a>
+                                            <?php
+                                            // Post-/Seiten-Links ausgeben
+                                            $post_links = [];
+                                            foreach ( $site_entry['sources'] as $src ) {
+                                                $s_label   = is_array( $src ) ? $src['label']   : $src;
+                                                $s_post_id = is_array( $src ) ? ( $src['post_id'] ?? 0 ) : 0;
+                                                if ( $s_post_id && ! isset( $post_links[ $s_post_id ] ) ) {
+                                                    $edit_url = get_admin_url( $site_entry['blog_id'], 'post.php?post=' . $s_post_id . '&action=edit' );
+                                                    $post_links[ $s_post_id ] = '<a href="' . esc_url( $edit_url ) . '">' . esc_html( $s_label ) . '</a>';
+                                                }
+                                            }
+                                            if ( $post_links ) {
+                                                echo '<a href="#" class="brk-ds-toggle" onclick="var el=this.nextElementSibling;el.style.display=el.style.display===\x27none\x27?\x27block\x27:\x27none\x27;this.textContent=el.style.display===\x27none\x27?\x27\u25B6 \x27+' . count( $post_links ) . '+\x27 Quellen anzeigen\x27:\x27\u25BC Quellen ausblenden\x27;return false;">&#9654; ' . count( $post_links ) . ' Quellen anzeigen</a>';
+                                                echo '<ul class="brk-ds-source-list brk-ds-collapsible" style="margin-left:12px;display:none;">';
+                                                foreach ( $post_links as $link ) {
+                                                    echo '<li>' . $link . '</li>';
+                                                }
+                                                echo '</ul>';
+                                            }
+                                            ?>
+                                        </li>
                                     <?php endforeach; ?>
                                 </ul>
                             </td>

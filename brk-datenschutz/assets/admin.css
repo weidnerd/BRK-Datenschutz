@@ -121,3 +121,17 @@
     border-radius: 12px;
     color: #2c3338;
 }
+
+/* Toggle-Link fuer Quellen */
+.brk-ds-toggle {
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #2271b1;
+    cursor: pointer;
+}
+
+.brk-ds-toggle:hover {
+    color: #135e96;
+}

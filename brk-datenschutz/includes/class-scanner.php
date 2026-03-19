@@ -39,7 +39,16 @@ class BRK_DS_Scanner {
 
         // Quellen deduplizieren
         foreach ( $this->services as $key => &$svc ) {
-            $svc['sources'] = array_values( array_unique( $svc['sources'] ) );
+            $seen = [];
+            $unique = [];
+            foreach ( $svc['sources'] as $src ) {
+                $fingerprint = $src['label'];
+                if ( ! isset( $seen[ $fingerprint ] ) ) {
+                    $seen[ $fingerprint ] = true;
+                    $unique[] = $src;
+                }
+            }
+            $svc['sources'] = $unique;
         }
 
         return [
@@ -158,7 +167,8 @@ class BRK_DS_Scanner {
                 if ( preg_match( $pattern, $post->post_content ) ) {
                     $this->add_service(
                         $service,
-                        sprintf( 'Post: "%s" (ID %d)', mb_substr( $post->post_title, 0, 50 ), $post->ID )
+                        sprintf( 'Post: "%s" (ID %d)', mb_substr( $post->post_title, 0, 50 ), $post->ID ),
+                        (int) $post->ID
                     );
                 }
             }
@@ -180,7 +190,8 @@ class BRK_DS_Scanner {
                 if ( preg_match( $pattern, $meta->meta_value ) ) {
                     $this->add_service(
                         $service,
-                        sprintf( 'Post-Meta (%s): "%s" (ID %d)', $meta->meta_key, mb_substr( $meta->post_title, 0, 50 ), $meta->ID )
+                        sprintf( 'Post-Meta (%s): "%s" (ID %d)', $meta->meta_key, mb_substr( $meta->post_title, 0, 50 ), $meta->ID ),
+                        (int) $meta->ID
                     );
                 }
             }
@@ -402,7 +413,7 @@ class BRK_DS_Scanner {
      * Helfer
      * ---------------------------------------------------------- */
 
-    private function add_service( array $service, string $source ): void {
+    private function add_service( array $service, string $source, int $post_id = 0 ): void {
         $key = $service['name'];
         if ( ! isset( $this->services[ $key ] ) ) {
             $this->services[ $key ] = [
@@ -411,6 +422,9 @@ class BRK_DS_Scanner {
                 'sources'  => [],
             ];
         }
-        $this->services[ $key ]['sources'][] = $source;
+        $this->services[ $key ]['sources'][] = [
+            'label'   => $source,
+            'post_id' => $post_id,
+        ];
     }
 }

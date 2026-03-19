@@ -128,8 +128,17 @@ class BRK_DS_Site_Admin {
                                     </td>
                                     <td>
                                         <ul class="brk-ds-source-list">
-                                            <?php foreach ( $svc['sources'] as $src ) : ?>
-                                                <li><?php echo esc_html( $src ); ?></li>
+                                            <?php foreach ( $svc['sources'] as $src ) :
+                                                $label   = is_array( $src ) ? $src['label'] : $src;
+                                                $post_id = is_array( $src ) ? ( $src['post_id'] ?? 0 ) : 0;
+                                            ?>
+                                                <li>
+                                                    <?php if ( $post_id ) : ?>
+                                                        <a href="<?php echo esc_url( get_edit_post_link( $post_id ) ); ?>"><?php echo esc_html( $label ); ?></a>
+                                                    <?php else : ?>
+                                                        <?php echo esc_html( $label ); ?>
+                                                    <?php endif; ?>
+                                                </li>
                                             <?php endforeach; ?>
                                         </ul>
                                     </td>
