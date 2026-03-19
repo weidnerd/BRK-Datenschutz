@@ -1,0 +1,4101 @@
+{
+    "scan_date": "2026-03-18T14:47:51+00:00",
+    "site_count": 195,
+    "sites": [
+        {
+            "blog_id": 1,
+            "name": "MiniCMS",
+            "url": "https://www.minicms.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Live Chat Plugin",
+                    "category": "Chat/Support",
+                    "sources": [
+                        "Plugin (generisch erkannt): ww_brk_chatbot/ww_brk_chatbot.php"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 3,
+            "name": "Wasserwacht Dachau",
+            "url": "https://www.wasserwacht-dachau.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 5,
+            "name": "Wasserwacht Musterstadt",
+            "url": "https://www.musterstadt.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 10,
+            "name": "Wasserwacht Holzkirchen",
+            "url": "https://www.wasserwacht-holzkirchen.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_8acc0d6bd566d7c66b21f36191b66415): \"Kalender\" (ID 10397)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 11,
+            "name": "Kreiswasserwacht Dingolfing Landau",
+            "url": "https://www.ww-dingolfing-landau.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Theme-Option (YOOtheme Wasserwacht)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 13,
+            "name": "Wasserwacht Hirschau",
+            "url": "https://www.hirschau.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Live Chat Plugin",
+                    "category": "Chat/Support",
+                    "sources": [
+                        "Plugin (generisch erkannt): ww_brk_chatbot/ww_brk_chatbot.php"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 14,
+            "name": "Kreiswasserwacht Pfaffenhofen an der Ilm",
+            "url": "https://www.kww-pfaffenhofen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Widget: widget_media_video"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 15,
+            "name": "Wasserwacht Utting",
+            "url": "https://www.wasserwacht-utting.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Christbaumsammlung\" (ID 7890)",
+                        "Post-Content: \"Christbaumsammlung\" (ID 6393)"
+                    ]
+                },
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Christbaumsammlung\" (ID 3674)",
+                        "Post-Content: \"Standorte\" (ID 2934)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Unterstützen\" (ID 2904)",
+                        "Post-Meta (_oembed_69654331b5c6ea3ad3963c0734c0c882): \"Hagelsturm über dem Ammersee\" (ID 2044)",
+                        "Post-Meta (_oembed_dacf55db8eaf260ea8f3c8f3f2bbfe65): \"Hagelsturm über dem Ammersee\" (ID 2044)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 16,
+            "name": "    Wasserwacht Dettelbach",
+            "url": "https://www.wasserwacht-dettelbach.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 17,
+            "name": "Wasserwacht Sand/Zeil",
+            "url": "https://www.ww-sand-zeil.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 18,
+            "name": "Wasserwacht Weiherhammer",
+            "url": "https://www.weiherhammer.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 19,
+            "name": "Wasserwacht Langenzenn",
+            "url": "https://www.wasserwacht-langenzenn.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 20,
+            "name": "Wasserwacht Bad Reichenhall",
+            "url": "https://www.bad-reichenhall.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_404478cca002c0a3c413a9cdbec0e849): \"Internes\" (ID 183)",
+                        "Post-Meta (_oembed_4ba54b8f4555069f641d488592ea907a): \"Internes\" (ID 183)",
+                        "Post-Meta (_oembed_767d17cd807693d75e0892a2a4d0b558): \"Internes\" (ID 183)",
+                        "Post-Meta (_oembed_1bd44fb296206675d05bc6caf1596418): \"Internes\" (ID 183)",
+                        "Post-Meta (_oembed_1fe9af85b57354f8880f6e981af9a2eb): \"Internes\" (ID 183)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 21,
+            "name": "Wasserwacht Ebensfeld",
+            "url": "https://www.ebensfeld.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 22,
+            "name": "Wasserwacht Arnstorf",
+            "url": "https://www.wasserwacht-arnstorf.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Kinderfasching am 04.02.2024\" (ID 31294)",
+                        "Post-Content: \"Schwimm- und Grillfest am 17.06.2023\" (ID 31103)",
+                        "Post-Content: \"Tauchübung in Künzing\" (ID 31065)",
+                        "Post-Content: \"Ramadama\" (ID 31063)",
+                        "Post-Content: \"Neue Rettungstaucherin für die Wasserwacht Arnstor\" (ID 31039)",
+                        "Post-Content: \"Gemeinschaftsübung mit der SEG Betreuung Rottal-In\" (ID 31031)",
+                        "Post-Content: \"Einsatz am Mertseestausee\" (ID 30930)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Rettungstaucher und Hochwasserschützer\" (ID 30603)",
+                        "Post-Meta (_oembed_cd488d8f2c57bec8d748e1c9bb18f204): \"Rettungstaucher und Hochwasserschützer\" (ID 30603)",
+                        "Post-Meta (_oembed_735271009de4a229597c01a43c6e2846): \"Rettungstaucher und Hochwasserschützer\" (ID 30603)",
+                        "Post-Meta (_oembed_91a8196d263e55b66451dae22845eceb): \"Rettungstaucher und Hochwasserschützer\" (ID 30603)",
+                        "Post-Meta (_oembed_4e7bcd505ac9a29d4a140bef878b0e3e): \"BAYERN SCHWIMMT 2020\" (ID 30909)",
+                        "Post-Meta (_oembed_484b5e361e9ae2e6f6a9b9bb5764731e): \"BAYERN SCHWIMMT 2020\" (ID 30909)",
+                        "Post-Meta (_oembed_fdf951df12f867ade71c2dfc6321e642): \"BAYERN SCHWIMMT 2020\" (ID 30909)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 23,
+            "name": "Wasserwacht",
+            "url": "https://www.wasserwacht-badstaffelstein.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 24,
+            "name": "Wasserwacht Neustadt an der Waldnaab",
+            "url": "https://www.neustadt.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Führen im Einsatz III - SEG Leiter\" (ID 30520)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_59b329e21f00f7d1176c86afe1d17be8): \"Willkommen\" (ID 5593)",
+                        "Post-Meta (_oembed_5d7bc980bffd0130bc7aaf2440f0420d): \"Willkommen\" (ID 5593)",
+                        "Post-Meta (_oembed_2d23f1a229a3439d5296e4792a646b43): \"Willkommen\" (ID 5593)",
+                        "Post-Meta (_oembed_808e17f932f8ba6c5c1aed396a4b1700): \"Willkommen\" (ID 5593)",
+                        "Post-Meta (_oembed_3ff4569ee61cfbb222ee6da6c52b1b91): \"Willkommen\" (ID 5593)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 25,
+            "name": "Wasserwacht Gunzenhausen",
+            "url": "https://www.wasserwacht-gunzenhausen.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Update Sanitätscontainer\" (ID 1309)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 26,
+            "name": "Wasserwacht Reichertshofen",
+            "url": "https://www.reichertshofen-baar-ebenhausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_59b329e21f00f7d1176c86afe1d17be8): \"2017\" (ID 10127)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Startseite\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 28,
+            "name": "Wasserwacht",
+            "url": "https://www.wasserwacht-zirndorf.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 29,
+            "name": "BRK-Wasserwacht Illertissen",
+            "url": "https://www.wasserwacht-illertissen.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"neuer Defibrillator an Wasserrettungsstation Filzi\" (ID 10897)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Startseite\" (ID 10284)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Startseite\" (ID 10284)",
+                        "Post-Meta (_oembed_0cf040672fc7ecf8332d036d985c065d): \"Bayern schwimmt 2021\" (ID 10821)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Startseite\" (ID 10284)",
+                        "Post-Meta (_oembed_f091188e686ff9378e7af22efc5759f7): \"Bayern schwimmt 2021\" (ID 10821)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 30,
+            "name": "Kreiswasserwacht Ostallgäu",
+            "url": "https://www.ostallgaeu.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 31,
+            "name": "Wasserwacht Feldkirchen",
+            "url": "https://www.wasserwacht-feldkirchen.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 32,
+            "name": "Wasserwacht Selb",
+            "url": "https://www.wasserwacht-selb.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Imagefilm der Wasserwacht Bayern\" (ID 30535)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Imagefilm der Wasserwacht Bayern\" (ID 30535)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 33,
+            "name": "Wasserwacht Eschenbach",
+            "url": "https://www.wasserwacht-eschenbach.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 34,
+            "name": "Wasserwacht Wasserburg",
+            "url": "https://www.wasserburg-am-inn.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"\" (ID 29)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 35,
+            "name": "Wasserwacht Füssen",
+            "url": "https://www.fuessen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_664de030169a45ef4dc4227137fad814): \"Besuch des bayerischen Ministerpräsidenten, Dr. Ma\" (ID 12623)",
+                        "Post-Meta (_oembed_e60fa904fa484a7dbea10866edb4aae8): \"Besuch des bayerischen Ministerpräsidenten, Dr. Ma\" (ID 12623)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 37,
+            "name": "Kreiswasserwacht Aschaffenburg",
+            "url": "https://www.kww-ab.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 38,
+            "name": "Wasserwacht Bezirksverband Oberbayern",
+            "url": "https://www.wasserwacht-oberbayern.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Der Imagefilm der Wasserwacht Bayern ist veröffent\" (ID 10241)",
+                        "Widget: widget_media_image"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 39,
+            "name": "Wasserwacht Iphofen",
+            "url": "https://www.iphofen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 40,
+            "name": "Wasserwacht Neunburg vorm Wald",
+            "url": "https://www.neunburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Ads / AdSense",
+                    "category": "Werbung",
+                    "sources": [
+                        "Post-Content: \"Datenschutz\" (ID 25)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 41,
+            "name": "Wasserwacht Vilstal-Kümmersbruck",
+            "url": "https://www.wasserwacht-vilstal-kuemmersbruck.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Bayerische Weihnacht 2019\" (ID 30566)",
+                        "Post-Content: \"Donaudurchbruchschwimmen\" (ID 30465)",
+                        "Post-Content: \"Motorbootaus-/fortbildung 08/2018\" (ID 30464)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Über Uns\" (ID 29)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Über Uns\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 42,
+            "name": "Wasserwacht Marktheidenfeld",
+            "url": "https://www.wasserwacht-marktheidenfeld.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 43,
+            "name": "Wasserwacht Vohenstrauß",
+            "url": "https://www.vohenstrauss.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Home\" (ID 29)",
+                        "Post-Meta (_oembed_7a7250e894ac763698db617f63d3929d): \"Home\" (ID 29)",
+                        "Post-Meta (_oembed_2b2d6d2c3fd44da81761706e74097549): \"Home\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 45,
+            "name": "Wasserwacht München Nord",
+            "url": "https://www.muenchen-nord.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Willkommen\" (ID 29)",
+                        "Post-Meta (_oembed_e9f1bac9e6e7eaa0c04d424c8f8e2d3f): \"Willkommen\" (ID 29)",
+                        "Post-Meta (_oembed_03afab46415cc698bea8da475b5f3e1c): \"Willkommen\" (ID 29)",
+                        "Post-Meta (_oembed_14db9f6cf97a6afc562cce2946c00369): \"Willkommen\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 46,
+            "name": "Wasserwacht Gmund",
+            "url": "https://www.wasserwacht-gmund.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 47,
+            "name": "Wasserwacht Lohhof",
+            "url": "https://www.wasserwacht-lohhof.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"MACH MIT !!!  Imagefilm der Wasserwacht-Bayern\" (ID 10868)",
+                        "Post-Content: \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"MACH MIT !!!  Imagefilm der Wasserwacht-Bayern\" (ID 10868)",
+                        "Post-Meta (_oembed_fc7bee76ceb215a1181d05aa0e799713): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_6943755a8f4c35ddbd0e69a3bbcae8ec): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"MACH MIT !!!  Imagefilm der Wasserwacht-Bayern\" (ID 10868)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"MACH MIT !!!  Imagefilm der Wasserwacht-Bayern\" (ID 10868)",
+                        "Post-Meta (_oembed_24bed46b984bc3a3cf1966361d04fed2): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_3d679550c959ac9df0e0b94e15847a3b): \"Startseite\" (ID 5000)"
+                    ]
+                },
+                {
+                    "name": "Vimeo Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a4fb92dfb4b0ab62d6bfc497197ddba3): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_a4fb92dfb4b0ab62d6bfc497197ddba3): \"Über Uns\" (ID 10041)",
+                        "Post-Meta (_oembed_4521d6403a8c3cfa42301e1b51177ea2): \"Über Uns\" (ID 10041)",
+                        "Post-Meta (_oembed_bb476d371faabc3657d90d58b12d63f9): \"Über Uns\" (ID 10041)",
+                        "Post-Meta (_oembed_04c6f4d89bf82389b37e2db5d8cdb0b1): \"Über Uns\" (ID 10041)",
+                        "Post-Meta (_oembed_c4926148b8e07b5201ad086ea213e59b): \"Über Uns\" (ID 10041)",
+                        "Post-Meta (_oembed_04c6f4d89bf82389b37e2db5d8cdb0b1): \"Startseite\" (ID 5000)",
+                        "Post-Meta (_oembed_da1f304960b5decb15880f9d0f2a7e20): \"Über Uns\" (ID 10041)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 48,
+            "name": "Wasserwacht Veitshöchheim - Margetshöchheim",
+            "url": "https://www.wawavhh.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Fasnacht in Franken\" (ID 3062)"
+                    ]
+                },
+                {
+                    "name": "Google Analytics / Tag Manager",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Widget: widget_text"
+                    ]
+                },
+                {
+                    "name": "Google Ads / AdSense",
+                    "category": "Werbung",
+                    "sources": [
+                        "Widget: widget_text"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 51,
+            "name": "Wasserwacht Oberaudorf",
+            "url": "https://www.oberaudorf.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 53,
+            "name": "Wasserwacht Berchtesgaden",
+            "url": "https://www.wasserwacht-berchtesgaden.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Galerie\" (ID 10485)",
+                        "Post-Content: \"Startseite - Home\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Startseite - Home\" (ID 29)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Startseite - Home\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 55,
+            "name": "Wasserwacht Unterfranken",
+            "url": "https://www.wasserwacht-unterfranken.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 56,
+            "name": "BRK Wasserwacht Ortsgruppe Altötting-Neuötting",
+            "url": "https://www.altoetting.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Ads / AdSense",
+                    "category": "Werbung",
+                    "sources": [
+                        "Post-Content: \"EU-DSGVO\" (ID 441)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 57,
+            "name": "Wasserwacht Markt Schwaben &amp; Stützpunkt Poing ",
+            "url": "https://www.wasserwacht-marktschwaben.de",
+            "services": [
+                {
+                    "name": "Google Ads / AdSense",
+                    "category": "Werbung",
+                    "sources": [
+                        "Post-Content: \"Datenschutz\" (ID 25)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 58,
+            "name": "Kreiswasserwacht Ebersberg",
+            "url": "https://www.kwwebersberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Ads / AdSense",
+                    "category": "Werbung",
+                    "sources": [
+                        "Post-Content: \"Datenschutz\" (ID 25)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 59,
+            "name": "Wasserwacht München West",
+            "url": "https://www.muenchen-west.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Erstes Isartraining 2026\" (ID 2313)",
+                        "Post-Content: \"First Responder Einsatz auf der Autobahn\" (ID 2309)",
+                        "Post-Content: \"Gemeinsam stark für den Ernstfall\" (ID 2296)",
+                        "Post-Content: \"Intensives Wochenende für die Wasserwacht OG Münch\" (ID 2268)",
+                        "Post-Content: \"Vorgezogenes Weihnachtsgeschenk für die Wasserwach\" (ID 2247)",
+                        "Post-Content: \"Der Nikolaus am Langwieder See\" (ID 2239)",
+                        "Post-Content: \"Erfolgreiche Ausbildungen\" (ID 2212)",
+                        "Post-Content: \"Brennt Bootshaus, mehrere Personen im Wasser - ein\" (ID 2186)",
+                        "Post-Content: \"Jugend am See\" (ID 2174)",
+                        "Post-Content: \"Nach den Ferien\" (ID 2153)",
+                        "Post-Content: \"Ausbildung BootsführerIn 2025\" (ID 2147)",
+                        "Post-Content: \"Couragierte Ersthelfer verhindern Ertrinkungsunfal\" (ID 2142)",
+                        "Post-Content: \"PKW ins Wasser gefahren\" (ID 2136)",
+                        "Post-Content: \"Fließwassertraining an der Isar\" (ID 2122)",
+                        "Post-Content: \"Viel los in den letzten Wochen\" (ID 2106)",
+                        "Post-Content: \"Seereinigung vor den Sommerferien\" (ID 2102)",
+                        "Post-Content: \"Schwimmlerntaschen für Lochausener Kinder\" (ID 2097)",
+                        "Post-Content: \"Full House am Langwieder See\" (ID 2086)",
+                        "Post-Content: \"Zwei neue Fließwassertetter in unserer Ortsgruppe\" (ID 2078)",
+                        "Post-Content: \"Mehrere Personen in Wassernot\" (ID 2066)",
+                        "Post-Content: \"Wochenende 5.7./6.7.\" (ID 2060)",
+                        "Post-Content: \"Trotz der Hitze ein durchschnittliches Wochenende \" (ID 2053)",
+                        "Post-Content: \"Bienen finden neues Zuhause bei der Wasserwacht\" (ID 2041)",
+                        "Post-Content: \"Hitze erwartet- langsam abkühlen\" (ID 2034)",
+                        "Post-Content: \"Einsatzübung am Lerchenauer See\" (ID 2007)",
+                        "Post-Content: \"Abendlicher Einsatz am Riemer See\" (ID 2002)",
+                        "Post-Content: \"Wasserwacht am Berg? Na klar!\" (ID 1989)",
+                        "Post-Content: \"Gemeinschaftsübung bei traumhaftem Sonnenuntergang\" (ID 1966)",
+                        "Post-Content: \"Wieder ein spannendes Wochenende bei der Wasserwac\" (ID 1952)",
+                        "Post-Content: \"Impressionen aus der Einsatztaucherausbildung 2025\" (ID 1937)",
+                        "Post-Content: \"Einsatzübung Vermisstensuche\" (ID 1908)",
+                        "Post-Content: \"Eisrettung- weil's so schön war gleich nochmal…\" (ID 1881)",
+                        "Post-Content: \"Eisrettungsübung\" (ID 1866)",
+                        "Post-Content: \"Silvestertauchen der Einsatztaucher\" (ID 1854)",
+                        "Post-Content: \"First Responder Einsatz am 2. Weihnachtsfeiertag\" (ID 1847)",
+                        "Post-Content: \"Frohe Weihnachten\" (ID 1845)",
+                        "Post-Content: \"Einsatz zum \"Gündinger Loch\"\" (ID 1835)",
+                        "Post-Content: \"Ein spannendes Jahr neigt sich dem Ende zu...\" (ID 1829)",
+                        "Post-Content: \"Einsatz am Feringasee für die Wasserwacht OG Münch\" (ID 1824)",
+                        "Post-Content: \"4 neue WasserretterInnen für die Wasserwacht OG Mü\" (ID 1821)",
+                        "Post-Content: \"Halloween am Langwieder See\" (ID 1817)",
+                        "Post-Content: \"Neuer ELW 1 für die Kreiswasserwacht München\" (ID 1807)",
+                        "Post-Content: \"Roseninselachter 2024\" (ID 1799)",
+                        "Post-Content: \"Einsatzübung mit Rettungshubschrauber\" (ID 1770)",
+                        "Post-Content: \"Gemeinsame Fließwasserübung an der Isar.\" (ID 1766)",
+                        "Post-Content: \"Reanimation am Langwieder See\" (ID 1755)",
+                        "Post-Content: \"Einsatzreicher Tag am Langwieder See...\" (ID 1749)",
+                        "Post-Content: \"THW Übungstag bei der Wasserwacht OG München-West\" (ID 1742)",
+                        "Post-Content: \"Munich mash 2024 und gemütlicher Dienst am See\" (ID 1729)",
+                        "Post-Content: \"Mehrere Wasserrettungseinsätze und ein First Respo\" (ID 1721)",
+                        "Post-Content: \"Einsatzübung am Feldmochinger See\" (ID 1717)",
+                        "Post-Content: \"Unterstützung nach Starkregen\" (ID 1714)",
+                        "Post-Content: \"Vielen Dank für euren Besuch- schee war's!\" (ID 1704)",
+                        "Post-Content: \"Wir können mehr als nur Wasser und Boot...\" (ID 1697)",
+                        "Post-Content: \"Vermisstensuche mit glücklichem Ausgang\" (ID 1691)",
+                        "Post-Content: \"Tag der offenen Tür 2024\" (ID 1679)",
+                        "Post-Content: \"Besuch Aubinger Vorschulkinder\" (ID 1676)",
+                        "Post-Content: \"Fließwassertraining an der Isar\" (ID 1672)",
+                        "Post-Content: \"Wieder mal Leichtsinn an der Isar\" (ID 1664)",
+                        "Post-Content: \"Einsatz für uns im Hochwasserrettungszug München\" (ID 1659)",
+                        "Post-Content: \"Warnung vor Dauerregen\" (ID 1656)",
+                        "Post-Content: \"Wacheröffnungsfeier 2024\" (ID 1649)",
+                        "Post-Content: \"Feuer, Wasser und 4 Pfoten trafen sich zum zweiten\" (ID 1645)",
+                        "Post-Content: \"Leichtsinn auf der Isar löst Großeinsatz aus\" (ID 1642)",
+                        "Post-Content: \"Übung Hochwasserrettungszug der Münchener Wasserwa\" (ID 1587)",
+                        "Post-Content: \"Bald geht´s los\" (ID 1580)",
+                        "Post-Content: \"Zusammenarbeit mit Rettungshubschraubern\" (ID 1554)",
+                        "Post-Content: \"Feuer, Wasser und 4 Pfoten trafen sich in großer R\" (ID 1549)",
+                        "Post-Content: \"Neue Einsatzleithardware im Einsatz\" (ID 1539)",
+                        "Post-Content: \"Kreiswettbewerb der Jugend\" (ID 1535)",
+                        "Post-Content: \"Absicherung Isarweihe 2024\" (ID 1526)",
+                        "Post-Content: \"Nachtübung mit vierbeiniger Unterstützung\" (ID 1504)",
+                        "Post-Content: \"Absicherung internationaler Roseninsel-8er durch d\" (ID 1494)",
+                        "Post-Content: \"Einsatz am Waldschwaigsee\" (ID 1484)",
+                        "Post-Content: \"First Responder Einsatz auf der Autobahn für die W\" (ID 1474)",
+                        "Post-Content: \"Aquaeye Handsonargeräte übergeben\" (ID 1459)",
+                        "Post-Content: \"Wasserwacht München-West wird wieder ein bisschen \" (ID 1454)",
+                        "Post-Content: \"Training Teil IV\" (ID 1449)",
+                        "Post-Content: \"Viel Besuch...\" (ID 1438)",
+                        "Post-Content: \"Tödlicher Badeunfall am Unterschleißheimer See\" (ID 1429)",
+                        "Post-Content: \"Training Teil III - diesmal Fließwasser\" (ID 1424)",
+                        "Post-Content: \"Save the date-04.06.2023\" (ID 1417)",
+                        "Post-Content: \"Training- nächster Teil...\" (ID 1409)",
+                        "Post-Content: \"Training für München\" (ID 1402)",
+                        "Post-Content: \"Zwei neue Wasserretterinnen und ein Wasserretter f\" (ID 1393)",
+                        "Post-Content: \"Jugend hebt ab...\" (ID 1377)",
+                        "Post-Content: \"Erster Einsatz im neuen Jahr\" (ID 1337)",
+                        "Post-Content: \"Platzerlbacken der Jugend\" (ID 1310)",
+                        "Post-Content: \"Taucherfortbildung in der Wasserwacht OG München-W\" (ID 1281)",
+                        "Post-Content: \"Nachtübung der Schnelleinsatzgruppe\" (ID 1276)",
+                        "Post-Content: \"Hütt'nwochenende der Jugend\" (ID 1266)",
+                        "Post-Content: \"Roseninsel Achter\" (ID 1255)",
+                        "Post-Content: \"ATV in Dienst genommen\" (ID 1236)",
+                        "Post-Content: \"70 Jahre Wasserwacht OG München West\" (ID 1222)",
+                        "Post-Content: \"First Responder Einsätze in Lochhausen und Langwie\" (ID 1218)",
+                        "Post-Content: \"Anstrengender Tag für die Wasserwacht West\" (ID 1208)",
+                        "Post-Content: \"Gemeinsamer Übungstag mit Schulsanitätern\" (ID 1197)",
+                        "Post-Content: \"Die beste Jugendgruppe der Welt?\" (ID 1194)",
+                        "Post-Content: \"Wasserrettung in der Leitstelle...\" (ID 1188)",
+                        "Post-Content: \"Liebe Eltern\" (ID 1175)",
+                        "Post-Content: \"Praxistraining - Verkehrsunfälle ￼\" (ID 1162)",
+                        "Post-Content: \"Übung macht den Meister\" (ID 1154)"
+                    ]
+                },
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Jugendtraining wieder am See\" (ID 1669)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_051590143f291a6523d2b76c95aa84bb): \"Aktuelle Informationen rund um Covid19 der Stadt M\" (ID 862)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 60,
+            "name": "Wasserwacht Mering",
+            "url": "https://www.wasserwacht-mering.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 61,
+            "name": "Kreiswasserwacht Aichach Friedberg",
+            "url": "https://www.aichach-friedberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 63,
+            "name": "Wasserwacht Unterföhring",
+            "url": "https://www.unterfoehring.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 64,
+            "name": "Wasserwacht Gaimersheim",
+            "url": "https://www.gaimersheim.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Was beim Ertrinken passiert\" (ID 7282)",
+                        "Post-Meta (_oembed_4e7bcd505ac9a29d4a140bef878b0e3e): \"Bayern schwimmt 2020\" (ID 6108)",
+                        "Post-Meta (_oembed_bc8699f6bd21a92daa359b8563a03905): \"Was beim Ertrinken passiert\" (ID 7282)",
+                        "Post-Meta (_oembed_9f74e305e82b3611323ce2ff98df8de0): \"Was beim Ertrinken passiert\" (ID 7282)",
+                        "Post-Meta (_oembed_fdf951df12f867ade71c2dfc6321e642): \"Bayern schwimmt 2020\" (ID 6108)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 65,
+            "name": "Kreiswasserwacht Eichstätt",
+            "url": "https://www.eichstaett.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Kellerfest der Brauerei Gutmann 2017\" (ID 639)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Widget: widget_media_video"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 66,
+            "name": "Wasserwacht Höchstadt",
+            "url": "https://www.wasserwacht-hoechstadt.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Willkommen\" (ID 1648)",
+                        "Post-Content: \"Maiwanderung 2017\" (ID 736)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 67,
+            "name": "Wasserwacht Neufahrn",
+            "url": "https://www.neufahrn.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 69,
+            "name": "Wasserwacht Ebersberg",
+            "url": "https://www.ebersberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "OpenStreetMap",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Datenschutz\" (ID 25)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 70,
+            "name": "Wasserwacht Marktoberdorf",
+            "url": "https://www.marktoberdorf.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Imagefilm Wasserwacht Bayern\" (ID 666)",
+                        "Post-Meta (_oembed_59b329e21f00f7d1176c86afe1d17be8): \"Werde Mitglied\" (ID 332)",
+                        "Post-Meta (_oembed_2d23f1a229a3439d5296e4792a646b43): \"Werde Mitglied\" (ID 332)",
+                        "Post-Meta (_oembed_808e17f932f8ba6c5c1aed396a4b1700): \"Werde Mitglied\" (ID 332)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Imagefilm Wasserwacht Bayern\" (ID 666)",
+                        "Post-Meta (_oembed_3fa34a13c7b6258c1fe151c324981308): \"Werde Mitglied\" (ID 332)",
+                        "Post-Meta (_oembed_3ff4569ee61cfbb222ee6da6c52b1b91): \"Werde Mitglied\" (ID 332)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Imagefilm Wasserwacht Bayern\" (ID 666)",
+                        "Post-Meta (_oembed_c6d9e05a28c99ebb78da1b3df285a35f): \"Werde Mitglied\" (ID 332)",
+                        "Post-Meta (_oembed_346dee1969169744af04b6aed720fcac): \"Werde Mitglied\" (ID 332)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 71,
+            "name": "Wasserwacht Langweid",
+            "url": "https://www.wasserwacht-langweid.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 73,
+            "name": "Wasserwacht Bechhofen",
+            "url": "https://www.bechhofen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 74,
+            "name": "Wasserwacht Aindling",
+            "url": "https://www.aindling.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Unbenannter wiederverwendbarer Block\" (ID 402)",
+                        "Post-Content: \"Unbenannter wiederverwendbarer Block\" (ID 400)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ede6e2b6fb6547675163fa74c8d7d95b): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_254043ffe7bd63675a4ef9a09837589b): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_81cdb270610ae167981a50f21ee35040): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_c4971fd1fac8a1d4c2e969d9f471bbe3): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_e55895b1b33cd4ca670b3c6dc38280f2): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_9e8999a997933b0b6fc9ac51fb6af34c): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_4b3166e0df9c75e390881aac1f7e72f6): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_6ebc9b070c6dfa197db8a73e681d52e6): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_b58c4af04883f031a56d9dc7b6ede356): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_33dc11410fbd6a107addf58433d1a9c9): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_f0bb7cca459e1e42c74eb685aabddacd): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_6666718260692b8bdff4d38ce81434a2): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_b0dc96dc629d4cd1b6d8345071522545): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_2b08c7127674c808fcdecb10e49003ff): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_d081487e33e4f6854177bb9c843248ff): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_d0c4f7d0b6f2d38bf07d520e2a18e07b): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_246471a62a7bed12957eabd54bd90eb9): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_30345305d0d891c1af9d2b2e0f2b2a2c): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_3f1bf35c05f6d8019f279c70f728e5e9): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_d279dc65bb1653ef566eec9e9dfa3638): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_48ad9e9e9287343c3df4069a81d07832): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_d4b062a2581c4cd3eba46f47ec25a430): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_9970eaa1e98a29a16b34694c6ada9011): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_7492fda285a85605fb924158c8400413): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_a9457d3fbe82d2e6dc8837c2875e1a34): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_305917b84a91439ebdd358001c57aaf2): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_b65b1195824f325a748cdacf9258d4cb): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_74d9107dbdf137c64eda301321ea03aa): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_a3fab96426ec159b708280d82929da2b): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_2ee1f67dc6a2ac75a302fcbd6e5272f3): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_263cd180ab2c7fd2b3265aa78a21130f): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_610a98d241f10de8db1d615518270204): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_cd4e3eedc45fbcd2b627b520e01d41f9): \"Videos zum Schwimmkurs\" (ID 647)",
+                        "Post-Meta (_oembed_41cbd2aec74fa1e0ea08f6ee6a6c66e9): \"Videos zum Schwimmkurs\" (ID 647)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 75,
+            "name": "Wasserwacht Schondorf",
+            "url": "https://www.wasserwacht-schondorf.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"\"Großputz\" in der Wachstation\" (ID 640118)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 77,
+            "name": "Wasserwacht Parsberg",
+            "url": "https://www.wasserwacht-parsberg.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Drei neue Bootsführer\" (ID 777157)",
+                        "Post-Content: \"Rettungsschwimmwettbewerb der Kreiswasserwacht Neu\" (ID 777138)",
+                        "Post-Meta (_oembed_9561d22982a8cffe9f32fdea0634141f): \"Drei neue Bootsführer\" (ID 777157)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 79,
+            "name": "Wasserwacht Arzberg-Marktredwitz",
+            "url": "https://www.wasserwacht-arzberg.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 80,
+            "name": "Kreis-Wasserwacht",
+            "url": "https://www.kww-landsberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 81,
+            "name": "Wasserwacht Pfarrkirchen",
+            "url": "https://www.wasserwacht-pfarrkirchen.com",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 82,
+            "name": "Wasserwacht Immenstadt",
+            "url": "https://www.immenstadt.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Imagefilm der Wasserwacht Bayern\" (ID 1126475)",
+                        "Post-Content: \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Imagefilm der Wasserwacht Bayern\" (ID 1126475)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Mitglied werden\" (ID 3200)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_2e283f6a6442e285c8819f4dcf687075): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_967afc7e3e752573e0dce08ea2a86caf): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_fc7bee76ceb215a1181d05aa0e799713): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_794d0a4d00836aeaa243f1f256e769d3): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Mitglied werden\" (ID 3200)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Imagefilm der Wasserwacht Bayern\" (ID 1126475)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Imagefilm der Wasserwacht Bayern\" (ID 1126475)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 83,
+            "name": "Wasserwacht Thüngersheim",
+            "url": "https://www.ww-thuengersheim.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Sanitätsüberwachung beim Triathlon am Erlabrunner \" (ID 18760)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 85,
+            "name": "Wasserwacht Krumbach",
+            "url": "https://www.wasserwacht-krumbach.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Jugend Wasserwacht Ausbildung\" (ID 8290)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Imagefilm der Wasserwacht Bayern\" (ID 2859)",
+                        "Post-Meta (_oembed_f03dcf958d12127cd1564ba81eef2e9b): \"Zwei Schwäbische Wasserwacht – Ortsgruppen üben an\" (ID 3487)",
+                        "Post-Meta (_oembed_dde6fa02ba250e099ee8e886854c0fc0): \"Jugend Wasserwacht Ausbildung\" (ID 8290)",
+                        "Post-Meta (_oembed_cf721ad757c9a347f5123e5ea1b2d55b): \"Jugend Wasserwacht Ausbildung\" (ID 8290)",
+                        "Post-Meta (_oembed_f73a4f7bce014c9f58d34b1f29f0c42f): \"Zwei Schwäbische Wasserwacht – Ortsgruppen üben an\" (ID 3487)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Imagefilm der Wasserwacht Bayern\" (ID 2859)",
+                        "Post-Meta (_oembed_88486da05e37311df3a0409481f6aae8): \"Zwei Schwäbische Wasserwacht – Ortsgruppen üben an\" (ID 3487)",
+                        "Post-Meta (_oembed_3af81ff304d4623976389eeb4e5e4687): \"Silvesterschwimmen 2017 am 31. Dezember um 14:00 U\" (ID 12170)",
+                        "Post-Meta (_oembed_a845d6941c80bbee0eff3b7532a47c1c): \"Jugend Wasserwacht Ausbildung\" (ID 8290)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Imagefilm der Wasserwacht Bayern\" (ID 2859)",
+                        "Post-Meta (_oembed_ac6d61302355667a0e050d9a54480752): \"Silvesterschwimmen 2017 am 31. Dezember um 14:00 U\" (ID 12170)",
+                        "Post-Meta (_oembed_bf6d1c98e6564df9c99b73fbacfc8a93): \"Zwei Schwäbische Wasserwacht – Ortsgruppen üben an\" (ID 3487)",
+                        "Widget: widget_media_video"
+                    ]
+                },
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Einladung zur Jahreshauptversammlung über das Jahr\" (ID 6707)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 88,
+            "name": "Wasserwacht Ortsgruppe Erlangen",
+            "url": "https://www.wasserwacht-erlangen.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_b79d1be64ac5d78c2aad9f6b6021a6f9): \"Impressum\" (ID 23)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 89,
+            "name": "Wasserwacht Hauzenberg",
+            "url": "https://www.wasserwacht-hauzenberg.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 90,
+            "name": "Wasserwacht Parkstetten",
+            "url": "https://www.parkstetten.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_482d51f7178f4e7973c3819431e81561): \"EiNFüHRUNGSSEMiNAR\" (ID 393)",
+                        "Post-Meta (_oembed_f75c2be663b352aa16b60a791cfd6424): \"ERSTE-HiLFE-AUSBiLDUNG\" (ID 398)",
+                        "Post-Meta (_oembed_f1743ce4825647622cfedb8e2544a5d2): \"ERSTE-HiLFE-AUSBiLDUNG\" (ID 398)",
+                        "Post-Meta (_oembed_e2831ecc81340cc355a3ca3c9d0b5e44): \"ERSTE-HiLFE\" (ID 396)",
+                        "Post-Meta (_oembed_b41bfe98e021fa7116bb1fdc25f05fe2): \"SCHNELLEiNSATZGRUPPE\" (ID 466)",
+                        "Post-Meta (_oembed_496d1c0c6d5b232a7fc750e06c97388b): \"GRUPPENEiNTEiLUNG in WhatsApp\" (ID 440)",
+                        "Post-Meta (_oembed_b41bfe98e021fa7116bb1fdc25f05fe2): \"JUGENDLEiTUNG\" (ID 446)",
+                        "Post-Meta (_oembed_10adf97e7c001be9c19d9201206d3dde): \"MiTGLiEDSCHAFT\" (ID 542)",
+                        "Post-Meta (_oembed_527409dbbcf2c21bfd46f1dd735672f2): \"JUGENDLEiTUNG\" (ID 446)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 92,
+            "name": "Wasserwacht Bad Aibling",
+            "url": "https://www.wasserwacht-badaibling.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_4b6468c953bb5b58af577b6233847e68): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_56709a5ad500545ea6ceedfd60d96acd): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_f9d784033bb187d00e5589318081fbc3): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_6e56046fbdedeeea74b1285dd96bedd9): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_5268d253f06304150460ca28cc4553bb): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_7dcf07ee50f75ce10c622976da320928): \"Videos\" (ID 10181)",
+                        "Post-Meta (_oembed_89119555363ae730b89ed3309c0af1d1): \"Videos\" (ID 10181)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 93,
+            "name": "Wasserwacht Obergünzburg",
+            "url": "https://www.oberguenzburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 96,
+            "name": "Wasserwacht Biberach",
+            "url": "https://www.biberach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 97,
+            "name": "Wasserwacht Burghausen",
+            "url": "https://www.burghausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 99,
+            "name": "Wasserwacht Eching am Ammersee",
+            "url": "https://www.eching.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Mitglied werden\" (ID 113)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 100,
+            "name": "Wasserwacht Prien-Rimsting",
+            "url": "https://www.wasserwacht-prien.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Einsatz 05.08.2019\" (ID 681366)"
+                    ]
+                },
+                {
+                    "name": "Disqus Kommentare",
+                    "category": "Kommentare",
+                    "sources": [
+                        "Post-Content: \"Datenschutz\" (ID 25)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 101,
+            "name": "Wasserwacht Thannhausen",
+            "url": "https://www.thannhausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 102,
+            "name": "Wasserwacht Wolfratshausen",
+            "url": "https://www.wasserwacht-wolfratshausen.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_5ff0f20cb6d84e68eea06d02fab71623): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_b9450a7e5bb133c95ecc5319f891369f): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_41fdfc980bdcfaf6765e05fbb29fbf4d): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_d327d0519e7454ab571f8ae274f37abb): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_751cde63d3603e16ddfad204550f4e77): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_1c55f2bfed765b7223d6b4badaf1f4c3): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_ecdecf8a0df5c07069137e4acfa9b035): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_0597e45640b68f3c607627944654e79c): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_b4070c4c031ba2b1a4a237ba5c2dc3ca): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_73990a7967dce47050b8ae740f4eff7b): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_7a4bd442c10a6c121b5381591762efe6): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_c9bce5eecd57854a2ed4c02f1bad3f3c): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_024874772a6ba9fcf902abdb228495c4): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_c4186570e58d46e92961c1736fd82552): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_07f355114a5b639904d83b0910223acc): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_398b8331a44489639d9542f5ef8da750): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_de785d4796ad5a33f3aec63678c26c54): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_ee60eed974f70b509876ac683d2b74f6): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_e44c41a7a4a2cad3a881b621bd08ed60): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_2bbe12f2842098c3bbf4394bcfc7a688): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_3fd0cb3f2e714ad6428f57ac05e1976e): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_3f00d6a1a9e8e06605483b5e9f312ca3): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_8d7b3dd0d1fc0ea5fbbf243e78c25cb8): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_bbdd8c139839b23e78cd1694aafd8a74): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_e42f3577c65529960b3440825a5860cc): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_881eeb1fc63131f37dc0ee043b9c72a5): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_cbdb6d8f62fc8b3379bd45801215654e): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_4d5bc5d0add95c1fd4be628dde15356c): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_bf619d716583f3b5a5eafc9693ab4aa7): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_0bae3a1db42b13176ddcc6151312687f): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_26cf9c46ebd74cce05ab0f20602aa896): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_97ef2fb10489c301cedbeb6e832e459f): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_7bba60bee3b9e6345a6097f055dea786): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_349df94428a3daf117d52477f883f7b5): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_911ae0f94a9b7e4d7e1c79cbd9e22449): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_580c5f89b3bcb4884b49fea2e4d3f29f): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_aedb58cb8f5e828abd5b7d831eefca40): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_2d004277a2e59ebaff378a460a926e27): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_5b657087e4ac48da23698234d0181f11): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_b9b02a339c70bc39bc344d1d160bb30a): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_46156e80a4bdb1989adfe49dc9d082b9): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_05401be8c1565c6efa36edc87e6869c7): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_314618e332a836079edc1ab978d7a44a): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_cbf62bd67b284641fc7670ac00d389b2): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_27df6c09c715864c4b88442f2c2ada10): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_c3a67134a342baa870c4e715184e3e36): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_f375fd7541abce9311e5ae66ac61d20d): \"Digitale Gruppenstd\" (ID 582351)",
+                        "Post-Meta (_oembed_872a743ee9549e79acd89023b08b783b): \"Digitale Gruppenstd\" (ID 582351)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 103,
+            "name": "Wasserwacht Kaufering",
+            "url": "https://www.kaufering.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 104,
+            "name": "Wasserwacht Roßhaupten",
+            "url": "https://www.rosshaupten.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Werde Mitglied\" (ID 45)",
+                        "Post-Meta (_oembed_6353224c052fd366e8e99686a8a09ba8): \"Unsere Ortsgruppe\" (ID 42)",
+                        "Post-Meta (_oembed_6353224c052fd366e8e99686a8a09ba8): \"Unsere Wachstation\" (ID 71)",
+                        "Post-Meta (_oembed_87736ea7e62865d74f302919b15f02e7): \"Werde Mitglied\" (ID 45)",
+                        "Post-Meta (_oembed_2afee441d29e30050b595dac3cf8e255): \"Unsere Ortsgruppe\" (ID 42)",
+                        "Post-Meta (_oembed_012b2c8402ea946d7178cbd193a55081): \"Unsere Ortsgruppe\" (ID 42)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Werde Mitglied\" (ID 45)",
+                        "Post-Meta (_oembed_316fa3a407f3d5fd4cb780a595f472cd): \"Unsere Ortsgruppe\" (ID 42)",
+                        "Post-Meta (_oembed_0633ecc3c18178cbe8094f3ceb8d66d3): \"Unsere Ortsgruppe\" (ID 42)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Werde Mitglied\" (ID 45)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 105,
+            "name": "Wasserwacht Baunach",
+            "url": "https://www.baunach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 107,
+            "name": "Wasserwacht Pilsensee",
+            "url": "https://www.pilsensee.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Strandreinigung am Ostufer des Pilsensees\" (ID 1377)",
+                        "Post-Content: \"Zu dünnes Eis\" (ID 1340)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 109,
+            "name": "Wasserwacht Wülfershausen an der Saale",
+            "url": "https://www.wwwuelfershausen.de",
+            "services": [
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Ausschreibung Rettungsschwimmer\" (ID 1269)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Ortsgruppe\" (ID 14)",
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Ortsgruppe\" (ID 14)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Ortsgruppe\" (ID 14)",
+                        "Post-Meta (_oembed_0328a1480ad19e11e83ba762dcfe54e3): \"Ortsgruppe\" (ID 14)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 110,
+            "name": "Wasserwacht München-Riem",
+            "url": "https://www.riem.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Neue Vorstandschaft\" (ID 812)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 111,
+            "name": "Wasserwacht Pfreimd",
+            "url": "https://www.pfreimd.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Willkommen!\" (ID 35)",
+                        "Post-Meta (_oembed_87736ea7e62865d74f302919b15f02e7): \"Willkommen!\" (ID 35)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Willkommen!\" (ID 35)"
+                    ]
+                },
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Meta (_oembed_b75a4190b42054b3965a82c350bb6d15): \"Aktuelles\" (ID 29)",
+                        "Post-Meta (_oembed_ffed7354fe7c7ba39a7a7de1af62e056): \"Aktuelles\" (ID 29)",
+                        "Post-Meta (_oembed_898bd10b522dcaf439db0fc1a9d37cab): \"Aktuelles\" (ID 29)",
+                        "Post-Meta (_oembed_94eeb5ebdfd6b1fff11841ea6d1f51c9): \"Aktuelles\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 113,
+            "name": "Wasserwacht Schliersee",
+            "url": "https://www.schliersee.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Baderegeln\" (ID 779)",
+                        "Post-Content: \"Herzlich Willkommen!\" (ID 29)",
+                        "Widget: widget_media_video"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 115,
+            "name": "Wasserwacht Ortsgruppe Bad Kissingen",
+            "url": "https://www.wasserwacht-badkissingen.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"SEG-Einsatz 20. April 2025\" (ID 12190)",
+                        "Post-Content: \"SEG-Einsatz 06. Juli 2024\" (ID 12023)",
+                        "Post-Content: \"SEG-Einsatz 06. Oktober 2023\" (ID 11873)",
+                        "Post-Content: \"Tauchdrohne und Hand-Sonar\" (ID 11753)",
+                        "Post-Content: \"SEG-Einsatz 22. Februar 2023\" (ID 11736)",
+                        "Post-Content: \"SEG-Einsatz 28. Januar 2023\" (ID 11728)",
+                        "Post-Content: \"Einsatzübung der Kreiswasserwacht\" (ID 11660)",
+                        "Post-Content: \"Unterstützung der Bereitschaft und Schnelleinsatzg\" (ID 11586)",
+                        "Post-Content: \"Neue Rettungsschwimmer im Wasserrettungsdienst\" (ID 11582)",
+                        "Post-Content: \"SEG-Einsatz 06. Juli 2022\" (ID 11564)",
+                        "Post-Content: \"Verabschiedung von Polizeioberrat Stefan Haschke\" (ID 11549)",
+                        "Post-Content: \"Spendenübergabe durch den Lions Club Bad Kissingen\" (ID 11544)",
+                        "Post-Content: \"SEG-Einsatz 29. Mai 2022\" (ID 11535)",
+                        "Post-Meta (_oembed_df442f998d8adf17b5182d5b718afc6f): \"Wasserwacht zum Anfassen\" (ID 10774)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Startseite\" (ID 2085)",
+                        "Post-Meta (_oembed_bb11715e1883b4f51b3ea6ad7f82252c): \"Startseite\" (ID 2085)",
+                        "Post-Meta (_oembed_5cda4294bfff1e751eaba65cf29e3807): \"Startseite\" (ID 2085)",
+                        "Post-Meta (_oembed_95288af4f5a5d1b8aaee5d61bfd3dcab): \"Startseite\" (ID 2085)",
+                        "Post-Meta (_oembed_c20cb69d16f5a5cd0a101f5a0cad2fca): \"Startseite\" (ID 2085)",
+                        "Post-Meta (_oembed_003d15abcae6557242fe4d03345720e9): \"Wasserwacht Bad Kissingen 99/2\" (ID 10409)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Startseite\" (ID 2085)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Startseite\" (ID 2085)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 116,
+            "name": "BRK Wasserwacht Neustadt bei Coburg",
+            "url": "https://www.nec.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 117,
+            "name": "Wasserwacht Würzburg",
+            "url": "https://www.wawawue.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Wasserwacht Würzburg bei Imagefilm dabei!\" (ID 100)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Wasserwacht Würzburg bei Imagefilm dabei!\" (ID 100)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Wasserwacht Würzburg bei Imagefilm dabei!\" (ID 100)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 118,
+            "name": "Wasserwacht Ortsgruppe Königsbrunn",
+            "url": "https://www.koenigsbrunn.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 120,
+            "name": "Wasserwacht Ortsgruppe Hollfeld",
+            "url": "https://www.wasserwacht-hollfeld.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 121,
+            "name": "Wasserwacht OG Dillingen",
+            "url": "https://www.dillingen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Willkommen\" (ID 39)",
+                        "Post-Meta (_oembed_24e9854719ef6ba3ecd3509820a83542): \"Willkommen\" (ID 39)",
+                        "Post-Meta (_oembed_8c78984c2a58c0cfc5d65376b9a3d19e): \"Willkommen\" (ID 39)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 122,
+            "name": "Wasserwacht Breitbrunn am Chiemsee",
+            "url": "https://www.wasserwacht-breitbrunn.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Herzlich willkommen\" (ID 251)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Herzlich willkommen\" (ID 251)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 123,
+            "name": "Wasserwacht Gersthofen",
+            "url": "https://www.gersthofen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 124,
+            "name": "Wasserwacht Ortsgruppe Diedorf",
+            "url": "https://www.diedorf.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_8a8031a6092afd038acf1a2e0d6de72b): \"Jugend\" (ID 78)",
+                        "Post-Meta (_oembed_db07e35307486946f24569ff295a2338): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_c3f9079c643b8ba9413350ea82839b0c): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_9a1e08564fe88eaca5826928b03d6877): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_81d2c50728dec9bc871570cb7a2e759e): \"Jugend\" (ID 78)",
+                        "Post-Meta (_oembed_944e39f735917e3d4910e398124e52fa): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_e040363d58b88242bdd8cfa7e9af8509): \"Jugend\" (ID 78)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 125,
+            "name": "Wasserwacht Moosburg",
+            "url": "https://www.wasserwacht-moosburg.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Herzlich Willkommen bei der Wasserwacht Moosburg a\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Herzlich Willkommen bei der Wasserwacht Moosburg a\" (ID 29)",
+                        "Post-Meta (_oembed_1c764f368d835992a3f0b77e16468217): \"Herzlich Willkommen bei der Wasserwacht Moosburg a\" (ID 29)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"Herzlich Willkommen bei der Wasserwacht Moosburg a\" (ID 29)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Herzlich Willkommen bei der Wasserwacht Moosburg a\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 126,
+            "name": "Kreis-Wasserwacht Ingolstadt",
+            "url": "https://www.wasserwacht-ingolstadt.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Startseite\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 127,
+            "name": "WW OG Rottach Egern",
+            "url": "https://www.wasserwacht-rottach-egern.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 129,
+            "name": "Wasserwacht OG Dorfen",
+            "url": "https://www.dorfen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Ausflug ins Altmühltal\" (ID 1208)",
+                        "Post-Meta (_oembed_56364da062dce39ad6e441f77e53f029): \"Ausflug ins Altmühltal\" (ID 1208)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 130,
+            "name": "DRK Wasserwacht OV Pinneberg",
+            "url": "https://www.wasserwacht-pinneberg.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Wasserwacht OV Pinneberg\" (ID 189)",
+                        "Post-Meta (_oembed_a2220926e84d63b931cb883d00f3bc11): \"Wasserwacht OV Pinneberg\" (ID 189)",
+                        "Post-Meta (_oembed_39ed2fdcdd42333678fb8fb2b5940c23): \"Wasserwacht OV Pinneberg\" (ID 189)",
+                        "Post-Meta (_oembed_19be3e6cba04d16c57908c37300eddde): \"Wasserwacht OV Pinneberg\" (ID 189)",
+                        "Post-Meta (_oembed_4d9683ebecd69f38ae861e2b976cd716): \"Wasserwacht OV Pinneberg\" (ID 189)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 132,
+            "name": "Wasserwacht Geisenfeld",
+            "url": "https://www.wasserwacht-geisenfeld.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 133,
+            "name": "Wasserwacht Landsberg am Lech",
+            "url": "https://www.wasserwacht-landsberg.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 134,
+            "name": "Wasserwacht Aub",
+            "url": "https://www.aub.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"\" (ID 29)",
+                        "Post-Meta (_oembed_4ce2a9e638efdbd77774b63b487603b6): \"\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"\" (ID 29)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 137,
+            "name": "Test Umzug",
+            "url": "https://www.umzug.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Webinar Test Seite\" (ID 585417)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 140,
+            "name": "OG Passau",
+            "url": "https://www.wasserwacht-passau.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 141,
+            "name": "Kreiswasserwacht Passau",
+            "url": "https://www.kreiswasserwacht-passau.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Medien und Presse\" (ID 47)",
+                        "Post-Meta (_oembed_e7dcefb1538af8625076477c8feb03a1): \"Medien und Presse\" (ID 47)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Medien und Presse\" (ID 47)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 142,
+            "name": "Kreiswasserwacht Bayreuth",
+            "url": "https://www.bayreuth.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Helferessen Bezirkswettbewerb\" (ID 694)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Neue Rettungsschwimmer im Wasserrettungsdienst in \" (ID 528)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 144,
+            "name": "Wasserwacht Schwarzenbach a.Wald",
+            "url": "https://www.schwarzenbach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 146,
+            "name": "Wasserwacht Landau an der Isar",
+            "url": "https://www.landau.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Aktuelles\" (ID 53)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_973da6ce5655bf149991103688721eca): \"Aktuelles\" (ID 53)",
+                        "Post-Meta (_oembed_3f4b75ec500b83300334c23bdac19a16): \"Aktuelles\" (ID 53)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 148,
+            "name": "Wasserwacht Waging am See",
+            "url": "https://www.wasserwacht-waging.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Die Ausbildung am neuen Boot beginnt!\" (ID 150)",
+                        "Post-Content: \"Unser Boot\" (ID 71)",
+                        "Post-Meta (_oembed_fd03aa14f0ab39bb04128c19c5c9b24b): \"Die Ausbildung am neuen Boot beginnt!\" (ID 150)",
+                        "Post-Meta (_oembed_fd03aa14f0ab39bb04128c19c5c9b24b): \"Unser Boot\" (ID 71)",
+                        "Post-Meta (_oembed_a8ffe70389a57faa3e9a64a2702be55b): \"Die Ausbildung am neuen Boot beginnt!\" (ID 150)",
+                        "Post-Meta (_oembed_a8ffe70389a57faa3e9a64a2702be55b): \"Unser Boot\" (ID 71)",
+                        "Post-Meta (_oembed_7221c1988b80e81d77f3adb4136a6900): \"Wir brauchen eure Hilfe!\" (ID 474)",
+                        "Post-Meta (_oembed_ed2e7daef0e03cacd3678de5042069b0): \"Wir brauchen eure Hilfe!\" (ID 474)",
+                        "Widget: widget_builderwidget"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 149,
+            "name": "Wasserwacht Eggstätt",
+            "url": "https://www.wasserwacht-eggstaett.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Wasserwacht Eggstätt\" (ID 251)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Wasserwacht Eggstätt\" (ID 251)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 150,
+            "name": "Wasserwacht Gundelfingen",
+            "url": "https://www.gundelfingen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Trainingszeiten\" (ID 37)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 152,
+            "name": "Wasserwacht Bamberg",
+            "url": "https://www.bamberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Startklar für den 74. BRK-Rosenmontagsball!\" (ID 2346)",
+                        "Post-Content: \"Tag der Jugend 2023\" (ID 1916)",
+                        "Post-Content: \"Bezirkswettbewerb 2023\" (ID 1873)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Die Wasserwacht\" (ID 2280)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"\" (ID 29)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Unbenannter wiederverwendbarer Block\" (ID 518)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Unbenannter wiederverwendbarer Block\" (ID 518)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 153,
+            "name": "Wasserwacht Wolnzach",
+            "url": "https://www.wasserwacht-wolnzach.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 154,
+            "name": "Kreiswasserwacht Günzburg",
+            "url": "https://www.kww-guenzburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 155,
+            "name": "Wasserwacht Georgensgmünd",
+            "url": "https://www.georgensgmuend.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Aktuelles\" (ID 122)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 156,
+            "name": "Wasserwacht Teublitz",
+            "url": "https://www.wasserwacht-teublitz.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 157,
+            "name": "Wasserwacht Miltenberg",
+            "url": "https://www.miltenberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 159,
+            "name": "Wasserwacht Tettenhausen",
+            "url": "https://www.tettenhausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Startseite\" (ID 55)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 160,
+            "name": "Wasserwacht Ortsgruppe Schönwald",
+            "url": "https://www.wasserwacht-schoenwald.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 162,
+            "name": "Wasserwacht Geisenhausen",
+            "url": "https://www.geisenhausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 163,
+            "name": "Wasserwacht Amsham/Egglham",
+            "url": "https://www.amsham.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Mailchimp",
+                    "category": "Newsletter/E-Mail",
+                    "sources": [
+                        "Post-Content: \"Test\" (ID 247)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 164,
+            "name": "Wasserwacht OG Heroldsberg",
+            "url": "https://www.wasserwacht-heroldsberg.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_c01e4f97c4633d67ff58ef21d8781231): \"Schlossbad\" (ID 166)",
+                        "Post-Meta (_oembed_2d4e1919b420b8eb94f4065a7b441f56): \"Schlossbad\" (ID 166)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 165,
+            "name": "Kreiswasserwacht Rosenheim",
+            "url": "https://www.kww-rosenheim.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 167,
+            "name": "Wasserwacht Wertingen",
+            "url": "https://www.wertingen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 170,
+            "name": "Wasserwacht Laufach",
+            "url": "https://www.laufach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Mitglied werden\" (ID 93)",
+                        "Post-Meta (_oembed_f8014e5141728604a229f82e7ee5df57): \"Mitglied werden\" (ID 93)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Die Wasserwacht\" (ID 864)",
+                        "Post-Meta (_oembed_5de20b015fde57d0bbe6df28efab9045): \"Mitglied werden\" (ID 93)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Die Wasserwacht\" (ID 864)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 171,
+            "name": "BRK Wasserwacht Bad Tölz",
+            "url": "https://www.wasserwacht-badtoelz.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Spende\" (ID 855)",
+                        "Post-Content: \"Mitglied werden\" (ID 128)",
+                        "Post-Content: \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_811c615685f7e86fa3c8283f0eb7d786): \"Mitglied werden\" (ID 128)"
+                    ]
+                },
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Wachstation\" (ID 227)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 172,
+            "name": "Wasserwacht Lauterbach",
+            "url": "https://www.lauterbach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 173,
+            "name": "Wasserwacht OG Osterhofen",
+            "url": "https://www.osterhofen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 174,
+            "name": "Kreiswasserwacht Coburg",
+            "url": "https://www.kww-coburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Kreiswasserwacht Coburg\" (ID 29)",
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Kreiswasserwacht Coburg\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 175,
+            "name": "Wasserwacht Schwarzenfeld",
+            "url": "https://www.wasserwacht-schwarzenfeld.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Eisrettungsübung\" (ID 2587)",
+                        "Post-Content: \"Neue Ausbilderinnen Schwimmen Stufe 1\" (ID 2585)",
+                        "Post-Content: \"Neues Motorrettungsboot\" (ID 2575)",
+                        "Post-Content: \"SEG-Übung am Steinberger See\" (ID 2563)",
+                        "Post-Content: \"Neue Ausbilder und Prüfer für den Helferführersche\" (ID 2554)",
+                        "Post-Content: \"SEG-Einsatz\" (ID 2510)",
+                        "Post-Content: \"Spendenübergabe\" (ID 2481)",
+                        "Post-Content: \"Eistauchgang am Forsterweiher\" (ID 2217)",
+                        "Post-Content: \"Eisrettungsübung\" (ID 2200)",
+                        "Post-Content: \"Weihnachtsfeier Jugend\" (ID 2188)",
+                        "Post-Content: \"Weihnachtsfeier Erwachsene\" (ID 2174)",
+                        "Post-Content: \"Neuer Wasserretter\" (ID 2080)",
+                        "Post-Content: \"EDEKA Vereinsaktion\" (ID 2055)",
+                        "Post-Content: \"Zeltlager Anmeldung\" (ID 1910)",
+                        "Post-Content: \"Osterfeier\" (ID 1864)",
+                        "Post-Content: \"Einladung Osterfeier\" (ID 1697)",
+                        "Post-Content: \"Dankeschön der Vorstandschaft\" (ID 1605)",
+                        "Post-Content: \"Vereinsaktion Edeka\" (ID 1430)",
+                        "Post-Content: \"Trainingsstart im Hallenbad\" (ID 1353)",
+                        "Post-Content: \"Zeltlager 2023\" (ID 1280)",
+                        "Post-Content: \"Sommerpause\" (ID 1271)",
+                        "Post-Content: \"Zeltlager Anmeldung\" (ID 1262)",
+                        "Post-Content: \"Kreiswettbewerb im Rettungsschwimmen\" (ID 1067)",
+                        "Post-Content: \"Maskiertes Training\" (ID 1061)",
+                        "Post-Content: \"Ostereiersuche für die Jugend\" (ID 325)",
+                        "Post-Content: \"Neue Motorrettungsbootführerin\" (ID 313)",
+                        "Post-Content: \"SEG-Ausbildung Juni\" (ID 254)",
+                        "Post-Content: \"Neue Rettungsschwimmer im Wasserrettungsdienst\" (ID 209)",
+                        "Post-Content: \"Zeltlager Beratzhausen\" (ID 200)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 176,
+            "name": "Wasserwacht Kahl",
+            "url": "https://www.kahl.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 178,
+            "name": "Wasserwacht Moosach-Steinsee",
+            "url": "https://www.moosachsteinsee.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 179,
+            "name": "Wasserwacht Kaufbeuren",
+            "url": "https://www.kaufbeuren.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 180,
+            "name": "Wasserwacht Ortsgruppe Forchheim",
+            "url": "https://www.wasserwacht-forchheim.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Mach mit\" (ID 65)",
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Mitglied werden\" (ID 66)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Mitglied werden\" (ID 66)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 183,
+            "name": "Wasserwacht Alzenau",
+            "url": "https://www.alzenau.wasserwacht.de",
+            "services": [
+                {
+                    "name": "OpenStreetMap",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Kontakt\" (ID 199)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_c3194f4838a04540ba1bb852cbd3ef83): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_2f0b9e9fad40013bbd191b2694808ebd): \"Bayerischer Engagiert Preis 2023\" (ID 587)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_2134e1cf2a299922628b219249760604): \"Bayerischer Engagiert Preis 2023\" (ID 587)",
+                        "Post-Meta (_oembed_601e15e1c2e4819d34dc18e6b070abb0): \"Startseite\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 184,
+            "name": "Wasserwacht Schrobenhausen",
+            "url": "https://www.schrobenhausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 186,
+            "name": "Wasserwacht Uffing-Seehausen",
+            "url": "https://www.uffing-seehausen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 187,
+            "name": "Wasserwacht Nürnberg",
+            "url": "https://www.nuernberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Wachstation an der Norikusbucht\" (ID 1029)",
+                        "Post-Content: \"Wachdienst an der Norikusbucht\" (ID 1024)",
+                        "Post-Content: \"Mitgliederversammlung und Neuwahlen\" (ID 939)",
+                        "Post-Content: \"Gemeinsame Tauchübung mit der Berufsfeuerwehr Nürn\" (ID 911)",
+                        "Post-Content: \"Jahresempfang 2024 mit Herrn Staatsminister Joachi\" (ID 908)",
+                        "Post-Content: \"Rock im Park 2024\" (ID 904)",
+                        "Post-Content: \"Seminar Ladezone Massenanffall für Verletzte (MANV\" (ID 896)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 188,
+            "name": "Wasserwacht Bad Wiessee",
+            "url": "https://www.badwiessee.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Kontakt\" (ID 231)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 189,
+            "name": "Wasserwacht Steppach",
+            "url": "https://www.steppach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_a7734a9eddef89cd203e1d97d4870de6): \"Über uns\" (ID 73)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Über uns\" (ID 73)",
+                        "Post-Meta (_oembed_ef24cfbc6855f880e9a6c4e206a38d47): \"Herzlich Willkommen bei der Wasserwacht Steppach!\" (ID 29)",
+                        "Post-Meta (_oembed_ef24cfbc6855f880e9a6c4e206a38d47): \"Spendenaufruf\" (ID 707)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 190,
+            "name": "Wasserwacht Lichtenau",
+            "url": "https://www.lichtenau.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 191,
+            "name": "Wasserwacht Landshut",
+            "url": "https://www.wasserwacht-landshut.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Über uns\" (ID 134)",
+                        "Post-Meta (_oembed_138f91722873eafb235b2727d7b2a671): \"Über uns\" (ID 134)",
+                        "Post-Meta (_oembed_14441e559710662cb8513610da983eef): \"Über uns\" (ID 134)",
+                        "Post-Meta (_oembed_81e866d63e21c28a2b6cdbe9329e876d): \"Über uns\" (ID 134)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 192,
+            "name": "Wasserwacht Bad Neustadt",
+            "url": "https://www.wasserwacht-badneustadt.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 193,
+            "name": "Wasserwacht Erlenbach",
+            "url": "https://www.wasserwacht-erlenbach.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 194,
+            "name": "Wasserwacht Postbauer-Heng",
+            "url": "https://www.postbauer-heng.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 196,
+            "name": "Wasserwacht Strullendorf ",
+            "url": "https://www.strullendorf.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 197,
+            "name": "Kreiswasserwacht Mühldorf a. Inn",
+            "url": "https://www.kww-muehldorf.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Steckerlfischgrillen der Wasserwacht\" (ID 215)",
+                        "Post-Content: \"Neujahrsschwimmen der Wasserwachten des Landkreise\" (ID 142)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 198,
+            "name": "Kreis-Wasserwacht Landshut",
+            "url": "https://www.kww-landshut.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 199,
+            "name": "Wasserwacht Altusried",
+            "url": "https://www.altusried.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 200,
+            "name": "Wasserwacht Rödental",
+            "url": "https://www.roedental.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Widget: widget_media_video"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 202,
+            "name": "Wasserwacht Sonthofen",
+            "url": "https://www.sonthofen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 203,
+            "name": "Wasserwacht Eltmann",
+            "url": "https://www.ww-eltmann.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 204,
+            "name": "Wasserwacht Münnerstadt",
+            "url": "https://www.muennerstadt.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 205,
+            "name": "Wasserwacht Diessen",
+            "url": "https://www.diessen.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 206,
+            "name": "Wasserwacht Hengersberg",
+            "url": "https://www.hengersberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Training\" (ID 182)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Widget: widget_media_video"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 211,
+            "name": "Wasserwacht Hallstadt",
+            "url": "https://www.hallstadt.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Am Freitag war wieder volles Programm im Becken!\" (ID 501)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Die Wasserwacht Ortsgruppe Hallstadt\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 212,
+            "name": "Wasserwacht Amberg",
+            "url": "https://www.amberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 213,
+            "name": "Wasserwacht Vilsbiburg",
+            "url": "https://www.vilsbiburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 216,
+            "name": "Wasserwacht Roth",
+            "url": "https://www.roth.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 217,
+            "name": "Wasserwacht Helmbrechts",
+            "url": "https://www.helmbrechts.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 219,
+            "name": "Wasserwacht Nonnenhorn",
+            "url": "https://www.nonnenhorn.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 220,
+            "name": "Wasserwacht Weiler",
+            "url": "https://www.weiler.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 221,
+            "name": "Wasserwacht Bayreuth",
+            "url": "https://www.ogbayreuth.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Rosenmontagsschwimmen\" (ID 2227)",
+                        "Post-Content: \"Erste Hilfe Kurs (Bilder)\" (ID 2194)",
+                        "Post-Content: \"Erste Hilfe Kurs\" (ID 2189)",
+                        "Post-Content: \"Sanitätsausbildung\" (ID 2184)",
+                        "Post-Content: \"++ Führen im Einsatz I und II ++\" (ID 2080)",
+                        "Post-Content: \"Mail\" (ID 327)",
+                        "Post-Content: \"Bilder\" (ID 164)",
+                        "Post-Content: \"\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_132f283b326c6864f29130b3d8cadf05): \"Einsatzdienst &amp; Ausbildung\" (ID 120)",
+                        "Post-Meta (_oembed_3180abce78ce7d6c3b16417293f94653): \"Einsatzdienst &amp; Ausbildung\" (ID 120)",
+                        "Post-Meta (_oembed_9e93dc125ea4d24e9b862e53c6efe834): \"Einsatzdienst &amp; Ausbildung\" (ID 120)",
+                        "Post-Meta (_oembed_76b74a9920a8a577630cfbd58352723e): \"Das Rote Kreuz\" (ID 1301)",
+                        "Post-Meta (_oembed_8da411635e43d548d1f074df1570564b): \"Das Rote Kreuz\" (ID 1301)",
+                        "Post-Meta (_oembed_677957f5886bae8d51be87d3733e0eed): \"Das Rote Kreuz\" (ID 1301)",
+                        "Post-Meta (_oembed_16c85dd5a118ff02a5d51d2f21615264): \"Einsatzdienst\" (ID 1254)",
+                        "Post-Meta (_oembed_2f285fe3bd4023a52a6d7088ff6d42a4): \"Einsatzdienst\" (ID 1254)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 222,
+            "name": "Wasserwacht Goldbach",
+            "url": "https://www.goldbach.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 224,
+            "name": "Wasserwacht Weißenbrunn",
+            "url": "https://www.weissenbrunn.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Homepage\" (ID 29)",
+                        "Post-Meta (_oembed_f57cec58e5afd87f1642e073f4b1b875): \"Homepage\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 226,
+            "name": "Kreiswasserwacht Freising",
+            "url": "https://www.freising.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 227,
+            "name": "Wasserwacht Eching",
+            "url": "https://www.e.wasserwacht.de",
+            "services": [
+                {
+                    "name": "OpenStreetMap",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Kontakt\" (ID 159)"
+                    ]
+                },
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Startseite\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 228,
+            "name": "Wasserwacht Nadlstadt",
+            "url": "https://www.nandlstadt.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 229,
+            "name": "Wasserwacht Sulzbach-Rosenberg",
+            "url": "https://www.sulzbach-rosenberg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 230,
+            "name": "Wasserwcht Kösching",
+            "url": "https://www.koesching.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 231,
+            "name": "Wasserwacht Deggendorf",
+            "url": "https://www.deggendorf.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 232,
+            "name": "Wasserwacht Donauwörth",
+            "url": "https://www.donauwoerth.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 233,
+            "name": "Kreiswasserwacht Aichach-Friedberg",
+            "url": "https://www.kww-aic-fdb.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 234,
+            "name": "Wasserwacht Rosenheim",
+            "url": "https://www.wasserwacht-rosenheim.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Aktuelles\" (ID 101)",
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Wasserwacht Ortsgruppe Rosenheim\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 235,
+            "name": "Wasserwacht Traunreut",
+            "url": "https://www.traunreut.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 236,
+            "name": "Wasserwacht Kuhsee",
+            "url": "https://www.wasserwacht-kuhsee.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Technische Suche und Ortung\" (ID 4309)",
+                        "Post-Content: \"Jung übt sich - Aftermovie\" (ID 2831)",
+                        "Post-Meta (_oembed_18f7d6fbf76a2a601244973ddd2686e8): \"Cold Water Challenge\" (ID 341)",
+                        "Post-Meta (_oembed_63ff2c2500b96822c1e8613b8a2b3ea4): \"Cold Water Challenge\" (ID 341)",
+                        "Post-Meta (_oembed_5494d1129a2229b2041492f7fc64c847): \"Jung übt sich - Aftermovie\" (ID 2831)",
+                        "Post-Meta (_oembed_48eadb6526791e20c5102aab98e3cf71): \"Cold Water Challenge\" (ID 341)",
+                        "Post-Meta (_oembed_673e92a357cf2e739aecaf2f8b8021ec): \"Jung übt sich - Aftermovie\" (ID 2831)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 237,
+            "name": "Wasserwacht Rott",
+            "url": "https://www.rott.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 238,
+            "name": "Wasserwacht Nabburg",
+            "url": "https://www.nabburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 239,
+            "name": "Wasserwacht Ammerland",
+            "url": "https://www.ammerland.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 240,
+            "name": "Wasserwacht Schwarzenbach an der Saale",
+            "url": "https://www.schwarzenbach-saale.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Analytics / Tag Manager",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Theme-Option (YOOtheme Wasserwacht)"
+                    ]
+                },
+                {
+                    "name": "Google Fonts (extern geladen)",
+                    "category": "Fonts/CDN",
+                    "sources": [
+                        "Post-Content: \"Schwimmtraining\" (ID 120)",
+                        "Post-Content: \"Schwimmkurse\" (ID 97)",
+                        "Post-Content: \"Mitglied werden\" (ID 50)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 241,
+            "name": "Wasserwachten in Hochfranken",
+            "url": "https://www.hochfranken.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Analytics / Tag Manager",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Theme-Option (YOOtheme)"
+                    ]
+                },
+                {
+                    "name": "Google Fonts (extern geladen)",
+                    "category": "Fonts/CDN",
+                    "sources": [
+                        "Post-Content: \"ZuKi's sind Meisterschwimmer\" (ID 38)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                },
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Theme-Datei: /cache/customizer-053781d6.php"
+                    ]
+                },
+                {
+                    "name": "Mailchimp",
+                    "category": "Newsletter/E-Mail",
+                    "sources": [
+                        "Theme-Datei: /cache/customizer-053781d6.php",
+                        "Theme-Datei: /packages/builder-newsletter/src/MailChimpProvider.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 242,
+            "name": "Wasserwacht Welden",
+            "url": "https://www.welden.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 243,
+            "name": "Wasserwacht Weissenburg",
+            "url": "https://www.wasserwacht-weissenburg.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 244,
+            "name": "Wasserwacht Rehau",
+            "url": "https://www.wasserwacht-rehau.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 245,
+            "name": "Wasserwacht Riegsee",
+            "url": "https://www.riegsee.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 246,
+            "name": "Wasserwacht Augsburg-Ost",
+            "url": "https://www.augsburg-ost.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 247,
+            "name": "Wasserwacht Günzburg",
+            "url": "https://www.guenzburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 249,
+            "name": "Wasserwacht Feldafing",
+            "url": "https://www.feldafing.wasserwacht.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Content: \"Startseite\" (ID 29)",
+                        "Post-Meta (_oembed_eb3d6399bf681af6a16b4d0197c154e5): \"Startseite\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 250,
+            "name": "Wasserwacht Metten",
+            "url": "https://www.wasserwacht-metten.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 252,
+            "name": "Wasserwacht Seeg",
+            "url": "https://www.seeg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 253,
+            "name": "Kreiswasserwacht Aschaffenburg",
+            "url": "https://www.kww-aschaffenburg.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 254,
+            "name": "Wasserwacht Wallenfels",
+            "url": "https://www.wallenfels.wasserwacht.de",
+            "services": [
+                {
+                    "name": "Google Maps",
+                    "category": "Karten/Standort",
+                    "sources": [
+                        "Post-Content: \"Training\" (ID 217)"
+                    ]
+                },
+                {
+                    "name": "Facebook SDK / Pixel",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Post-Content: \"Blutspenden 12.12.2025\" (ID 165)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 255,
+            "name": "Wasserwacht Göggingen",
+            "url": "https://www.wasserwacht-goeggingen.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 256,
+            "name": "Wasserwacht Mainparksee",
+            "url": "https://www.mainparksee.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 257,
+            "name": "Wasserwacht Mittenwald",
+            "url": "https://www.wasserwacht-mittenwald.de",
+            "services": [
+                {
+                    "name": "YouTube Embed",
+                    "category": "Video/Embed",
+                    "sources": [
+                        "Post-Meta (_oembed_ff1ee0d76ec328462696efaa75b6f474): \"Startseite\" (ID 29)"
+                    ]
+                },
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        },
+        {
+            "blog_id": 258,
+            "name": "DRK Wasserwacht Glauchau (Sachsen)",
+            "url": "https://www.glauchau.wasserwacht.de",
+            "services": [
+                {
+                    "name": "WP-Matomo (Piwik)",
+                    "category": "Analytics/Tracking",
+                    "sources": [
+                        "Netzwerk-Plugin: wp-piwik/wp-piwik.php"
+                    ]
+                }
+            ]
+        }
+    ]
+}
